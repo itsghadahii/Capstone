@@ -1,0 +1,1507 @@
+[
+  {
+    "title": "Fundamentals of Electronic Circuit Soldering",
+    "description": "This course provides a comprehensive overview of the soldering techniques and tools used in assembling electronic circuits.\nIt aims to teach participants how to solder and inspect electronic components accurately and efficiently, with a strong emphasis on safety and quality. Participants will learn how to operate soldering equipment, identify various electronic components, and perform proper soldering to ensure reliable electrical connections.",
+    "startDate": "2025-05-18T10:00:00+03:00",
+    "endDate": "2025-05-22T14:00:00+03:00",
+    "isRegistrationOpen": true,
+    "isRegistrationClosed": false,
+    "language": "en",
+    "video": "<div class=\"mx-auto relative w-full h-full !sm:h-[35rem]\" style=\"min-height:35vh !important; height:100%\"> <iframe src=\"https://player.vimeo.com/video/1013242135?title=0&amp;byline=0&amp;portrait=0&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479\" frameborder=\"0\" allow=\"autoplay; fullscreen; picture-in-picture; clipboard-write\" title=\"عام لبرامج الكبار\" style=\"position:absolute; top:0; left:0; width:100%; height:100%;\" ></iframe></div>",
+    "initiativeAgeName": "Adults",
+    "initiativeCategoryName": "Program",
+    "locationName": "Riyadh - Headquarters",
+    "initiativeScopeName": "Mechatronics Engineering",
+    "goals": [
+      "Understand the fundamentals and tools of electronic soldering",
+      "Identify types and characteristics of electronic components",
+      "Use soldering tools and auxiliary materials correctly",
+      "Professionally solder and desolder electronic components",
+      "Inspect soldering quality and identify/correct common errors",
+      "Apply safety procedures when using soldering tools."
+    ],
+    "features": [
+      "Intensive hands-on training with a focus on real-world applications",
+      "Small training groups to ensure direct interaction with the instructor",
+      "Provision of training materials and tools for practical application",
+      "Certificate of completion issued by the academy."
+    ],
+    "requirements": [
+      "The applicant must be Saudi.",
+      "Own a personal laptop.",
+      "Preferably have a basic background in electronics."
+    ],
+    "faqs": {
+      "هل توجد شهادة بعد انتهاء المعسكر / البرنامج؟": "تقدم أكاديمية طويق معسكرات وبرامج بشهادات احترافية بالشراكة مع كبرى الجهات العالمية، بالإضافة إلى شهادات حضور لكافة المعسكرات والبرامج.\n",
+      "هل يتم إشعاري بالقبول؟": "يتم إشعارك بالقبول النهائي عبر البريد الإلكتروني قبل بدء المعسكر / البرنامج بفترة كافية.\n"
+    },
+    "initiativeProCertificate": null,
+    "slug": "9yDva8BO",
+    "registrationEndDate": "2025-05-11T12:00:00+03:00",
+    "minimumAge": 18,
+    "maximumAge": 100,
+    "locationText": "Riyadh - Headquarters",
+    "startDateText": "18-05-2025",
+    "endDateText": "22-05-2025",
+    "startTimeText": "10:00 AM",
+    "endTimeText": "2:00 PM",
+    "durationText": "10:00 AM - 02:00 PM"
+  },
+  {
+    "title": "Deep Learning with Keras",
+    "description": "This training program focuses on deep learning using the Keras tool,\naiming to equip learners with the necessary skills to develop and implement deep learning models using the Keras framework within a Python environment.\n",
+    "startDate": "2025-05-18T14:00:00+03:00",
+    "endDate": "2025-05-29T16:00:00+03:00",
+    "isRegistrationOpen": true,
+    "isRegistrationClosed": false,
+    "language": "en",
+    "video": "<div class=\"mx-auto relative w-full h-full !sm:h-[35rem]\" style=\"min-height:35vh !important; height:100%\"> <iframe src=\"https://player.vimeo.com/video/1013242135?title=0&amp;byline=0&amp;portrait=0&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479\" frameborder=\"0\" allow=\"autoplay; fullscreen; picture-in-picture; clipboard-write\" title=\"عام لبرامج الكبار\" style=\"position:absolute; top:0; left:0; width:100%; height:100%;\" ></iframe></div>",
+    "initiativeAgeName": "Adults",
+    "initiativeCategoryName": "Program",
+    "locationName": "Remote",
+    "initiativeScopeName": "Data Science and Artificial Intelligence",
+    "goals": [
+      "Understand the principles of deep learning and neural networks",
+      "Acquire the skills to use Keras for building and training deep models",
+      "Learn techniques for optimizing and evaluating model performance",
+      "Implement real-world applications using Keras such as classification, prediction, and segmentation."
+    ],
+    "features": [
+      "Application-based learning methodology",
+      "Supportive and competitive learning environment."
+    ],
+    "requirements": [
+      "The applicant must be Saudi.",
+      "Own a personal laptop.",
+      "The applicant must hold a bachelor's degree."
+    ],
+    "faqs": {
+      "هل توجد شهادة بعد انتهاء البرنامج؟": "تقدم أكاديمية طويق معسكرات وبرامج بشهادات احترافية بالشراكة مع كبرى الجهات العالمية، بالإضافة إلى شهادات حضور لكافة المعسكرات والبرامج.",
+      "هل يتم إشعاري بالقبول؟": "يتم إشعارك بالقبول النهائي عبر البريد الإلكتروني قبل بدء البرنامج بفترة كافية.\n"
+    },
+    "initiativeProCertificate": null,
+    "slug": "alpyxJRP",
+    "registrationEndDate": "2025-05-11T12:00:00+03:00",
+    "minimumAge": 18,
+    "maximumAge": 100,
+    "locationText": "Remote",
+    "startDateText": "18-05-2025",
+    "endDateText": "29-05-2025",
+    "startTimeText": "2:00 PM",
+    "endTimeText": "4:00 PM",
+    "durationText": "02:00 PM - 04:00 PM"
+  },
+  {
+    "title": "Fundamentals of Design and 3D Printing",
+    "description": "The 3D Design and Printing program offers hands-on experience in 3D modeling using Onshape software.\nParticipants will learn the fundamentals of engineering modeling, editing designs, and preparing them for printing. The program also provides a comprehensive introduction to 3D printing, covering printer mechanisms, types, and materials used, all within an applied learning environment supervised by a specialized teaching team.",
+    "startDate": "2025-05-18T17:00:00+03:00",
+    "endDate": "2025-05-22T21:00:00+03:00",
+    "isRegistrationOpen": true,
+    "isRegistrationClosed": false,
+    "language": "en",
+    "video": "<div class=\"mx-auto relative w-full h-full !sm:h-[35rem]\" style=\"min-height:35vh !important; height:100%\"> <iframe src=\"https://player.vimeo.com/video/1013242135?title=0&amp;byline=0&amp;portrait=0&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479\" frameborder=\"0\" allow=\"autoplay; fullscreen; picture-in-picture; clipboard-write\" title=\"عام لبرامج الكبار\" style=\"position:absolute; top:0; left:0; width:100%; height:100%;\" ></iframe></div>",
+    "initiativeAgeName": "Adults",
+    "initiativeCategoryName": "Program",
+    "locationName": "Riyadh - Headquarters",
+    "initiativeScopeName": "Mechatronics Engineering",
+    "goals": [
+      "Enable students to use Onshape to create professional 3D designs",
+      "Understand how 3D printers work and how to operate them",
+      "Prepare and design projects ready for printing",
+      "Develop skills in engineering design and digital manufacturing.."
+    ],
+    "features": [
+      "Intensive hands-on training focused on real-world scenarios",
+      "Small training groups for effective instructor engagement and provision of necessary materials and tools",
+      "Certificate of completion accredited by the academy."
+    ],
+    "requirements": [
+      "The applicant must be Saudi.",
+      "Own a personal laptop.",
+      "Must hold a bachelor's degree in a technical field."
+    ],
+    "faqs": {
+      "هل توجد شهادة بعد انتهاء المعسكر / البرنامج؟": "تقدم أكاديمية طويق معسكرات وبرامج بشهادات احترافية بالشراكة مع كبرى الجهات العالمية، بالإضافة إلى شهادات حضور لكافة المعسكرات والبرامج.\n",
+      "هل يتم إشعاري بالقبول؟": "يتم إشعارك بالقبول النهائي عبر البريد الإلكتروني قبل بدء المعسكر / البرنامج بفترة كافية."
+    },
+    "initiativeProCertificate": null,
+    "slug": "ZnylXyRN",
+    "registrationEndDate": "2025-05-11T12:00:00+03:00",
+    "minimumAge": 18,
+    "maximumAge": 100,
+    "locationText": "Riyadh - Headquarters",
+    "startDateText": "18-05-2025",
+    "endDateText": "22-05-2025",
+    "startTimeText": "5:00 PM",
+    "endTimeText": "9:00 PM",
+    "durationText": "05:00 PM - 09:00 PM"
+  },
+  {
+    "title": "Drone Programming and Operation",
+    "description": "This program focuses on the technical programming concepts behind drones and the engineering and scientific principles that support them.\nParticipants will explore drone components and systems, how to integrate them with programming for control, and will simulate and operate drones in virtual physics-based environments to test a variety of operational tasks.",
+    "startDate": "2025-05-18T18:00:00+03:00",
+    "endDate": "2025-05-29T20:00:00+03:00",
+    "isRegistrationOpen": true,
+    "isRegistrationClosed": false,
+    "language": "en",
+    "video": "<div class=\"mx-auto relative w-full h-full !sm:h-[35rem]\" style=\"min-height:35vh !important; height:100%\"> <iframe src=\"https://player.vimeo.com/video/1013242135?title=0&amp;byline=0&amp;portrait=0&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479\" frameborder=\"0\" allow=\"autoplay; fullscreen; picture-in-picture; clipboard-write\" title=\"عام لبرامج الكبار\" style=\"position:absolute; top:0; left:0; width:100%; height:100%;\" ></iframe></div>",
+    "initiativeAgeName": "Adults",
+    "initiativeCategoryName": "Program",
+    "locationName": "Riyadh - Headquarters",
+    "initiativeScopeName": "Mechatronics Engineering",
+    "goals": [
+      "Learn drone programming tools",
+      "Explore and build virtual simulation systems",
+      "Complete hands-on projects to enhance drone programming skills."
+    ],
+    "features": [
+      "Interactive semester project for building a virtual drone programming environment",
+      "Hands-on drone programming training",
+      "Program delivered in Arabic."
+    ],
+    "requirements": [
+      "The applicant must be Saudi.",
+      "Commitment to attend all training sessions.",
+      "Good level of English.",
+      "Programming background."
+    ],
+    "faqs": {},
+    "initiativeProCertificate": null,
+    "slug": "X803w0Pw",
+    "registrationEndDate": "2025-05-11T12:00:00+03:00",
+    "minimumAge": 18,
+    "maximumAge": 100,
+    "locationText": "Riyadh - Headquarters",
+    "startDateText": "18-05-2025",
+    "endDateText": "29-05-2025",
+    "startTimeText": "6:00 PM",
+    "endTimeText": "8:00 PM",
+    "durationText": "06:00 PM - 08:00 PM"
+  },
+  {
+    "title": "Aerial Inspection",
+    "description": "This training program is designed to equip participants with the knowledge and practical skills needed to perform aerial inspections using drones across different fields,\nincluding energy, infrastructure, and construction. It combines theoretical education with field training, enabling participants to safely operate drones, plan inspection tasks, collect high-quality data, and analyze results to support informed and cost-effective decision-making by relevant stakeholders.\n",
+    "startDate": "2025-05-18T18:00:00+03:00",
+    "endDate": "2025-05-29T20:00:00+03:00",
+    "isRegistrationOpen": true,
+    "isRegistrationClosed": false,
+    "language": "en",
+    "video": "<div class=\"mx-auto relative w-full h-full !sm:h-[35rem]\" style=\"min-height:35vh !important; height:100%\"> <iframe src=\"https://player.vimeo.com/video/1013242135?title=0&byline=0&portrait=0&badge=0&autopause=0&player_id=0&app_id=58479\" frameborder=\"0\" allow=\"autoplay; fullscreen; picture-in-picture; clipboard-write\" title=\"عام لبرامج الكبار\" style=\"position:absolute; top:0; left:0; width:100%; height:100%;\" ></iframe></div>",
+    "initiativeAgeName": "Adults",
+    "initiativeCategoryName": "Program",
+    "locationName": "Riyadh - Headquarters",
+    "initiativeScopeName": "Mechatronics Engineering",
+    "goals": [
+      "Understand types of drones, sensors, and their applications in aerial inspection",
+      "Learn GACA and GEOSA regulations, safety protocols, and risk assessment methods",
+      "Plan aerial inspection missions using best practices",
+      "Execute real-world drone inspection scenarios",
+      "Apply data processing techniques using various software and tools."
+    ],
+    "features": [
+      "Practical day at Banban Airport on the first Saturday",
+      "Realistic simulation of aerial inspection applications",
+      "Hands-on experience operating state-of-the-art drones",
+      "Certificate of completion."
+    ],
+    "requirements": [
+      "The applicant must be Saudi.",
+      "Good level of English.",
+      "Commitment to attend practical sessions at Banban Airport."
+    ],
+    "faqs": {
+      "هل توجد شهادة بعد انتهاء البرنامج؟": "تقدم أكاديمية طويق معسكرات وبرامج بشهادات احترافية بالشراكة مع كبرى الجهات العالمية، بالإضافة إلى شهادات حضور لكافة المعسكرات والبرامج.",
+      "هل يتم إشعاري بالقبول؟": "يتم إشعارك بالقبول النهائي عبر البريد الإلكتروني قبل بدء المعسكر / البرنامج بفترة كافية."
+    },
+    "initiativeProCertificate": null,
+    "slug": "WKD7r3RJ",
+    "registrationEndDate": "2025-05-18T12:00:00+03:00",
+    "minimumAge": 18,
+    "maximumAge": 100,
+    "locationText": "Riyadh - Headquarters",
+    "startDateText": "18-05-2025",
+    "endDateText": "29-05-2025",
+    "startTimeText": "6:00 PM",
+    "endTimeText": "8:00 PM",
+    "durationText": "06:00 PM - 08:00 PM"
+  },
+  {
+    "title": "Mastering Cybersecurity Governance, Risk, and Compliance (GRC",
+    "description": "This program provides comprehensive training to equip participants with the skills and competencies needed to manage cybersecurity governance and risk.\nIt focuses on enabling institutional compliance and achieving effectiveness through best practices aligned with market needs. Participants will learn how to assess cyber risks and implement appropriate cybersecurity controls.",
+    "startDate": "2025-05-18T19:00:00+03:00",
+    "endDate": "2025-05-22T22:00:00+03:00",
+    "isRegistrationOpen": true,
+    "isRegistrationClosed": false,
+    "language": "en",
+    "video": "<div class=\"mx-auto relative w-full h-full !sm:h-[35rem]\" style=\"min-height:35vh !important; height:100%\"> <iframe src=\"https://player.vimeo.com/video/1013242135?title=0&byline=0&portrait=0&badge=0&autopause=0&player_id=0&app_id=58479\" frameborder=\"0\" allow=\"autoplay; fullscreen; picture-in-picture; clipboard-write\" title=\"عام لبرامج الكبار\" style=\"position:absolute; top:0; left:0; width:100%; height:100%;\" ></iframe></div>",
+    "initiativeAgeName": "Adults",
+    "initiativeCategoryName": "Program",
+    "locationName": "Riyadh - Headquarters",
+    "initiativeScopeName": " Cybersecurity",
+    "goals": [
+      "Develop various cybersecurity governance, risk, and compliance documents efficiently",
+      "Develop and review cybersecurity controls and policies in line with international best practices",
+      "Conduct cybersecurity assessments aligned with global standards",
+      "Understand and link relevant cybersecurity legislation and policies across global, GCC, and Saudi contexts."
+    ],
+    "features": [
+      "Application-based learning methodology",
+      "Supportive and competitive environment",
+      "Program delivered in Arabic",
+      "Practical linkage between scientific knowledge and skills and real-world capabilities through case studies from local and global companies in Saudi Arabia",
+      "Development of policies, controls, and cyber risk assessments for real-life scenarios."
+    ],
+    "requirements": [
+      "The applicant must be Saudi.",
+      "Own a personal laptop.",
+      "Bachelor's degree in a technical field"
+    ],
+    "faqs": {
+      "هل توجد شهادة بعد انتهاء المعسكر / البرنامج؟": "تقدم أكاديمية طويق معسكرات وبرامج بشهادات احترافية بالشراكة مع كبرى الجهات العالمية، بالإضافة إلى شهادات حضور لكافة المعسكرات والبرامج.",
+      "هل يتم إشعاري بالقبول؟": "يتم إشعارك بالقبول النهائي عبر البريد الإلكتروني قبل بدء المعسكر / البرنامج بفترة كافية.\n"
+    },
+    "initiativeProCertificate": null,
+    "slug": "Jk6rQYx9",
+    "registrationEndDate": "2025-05-11T12:00:00+03:00",
+    "minimumAge": 18,
+    "maximumAge": 100,
+    "locationText": "Riyadh - Headquarters",
+    "startDateText": "18-05-2025",
+    "endDateText": "22-05-2025",
+    "startTimeText": "7:00 PM",
+    "endTimeText": "10:00 PM",
+    "durationText": "07:00 PM- 10:00 PM"
+  },
+  {
+    "title": "Fundamentals of Programming Controllers (Arduino)",
+    "description": "A simplified course designed for beginners, focusing on the foundational concepts of working with the Arduino platform.\nThe course aims to demystify basic principles in programming and electronics through easy-to-follow experiments. Participants will develop a solid understanding of the basics, learn the components and functions of the Arduino board, how to connect it to a computer, and how to write simple code to control inputs and outputs.",
+    "startDate": "2025-05-25T12:00:00+03:00",
+    "endDate": "2025-05-29T15:00:00+03:00",
+    "isRegistrationOpen": true,
+    "isRegistrationClosed": false,
+    "language": "en",
+    "video": "<div class=\"mx-auto relative w-full h-full !sm:h-[35rem]\" style=\"min-height:35vh !important; height:100%\"> <iframe src=\"https://player.vimeo.com/video/1013242135?title=0&amp;byline=0&amp;portrait=0&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479\" frameborder=\"0\" allow=\"autoplay; fullscreen; picture-in-picture; clipboard-write\" title=\"عام لبرامج الكبار\" style=\"position:absolute; top:0; left:0; width:100%; height:100%;\" ></iframe></div>",
+    "initiativeAgeName": "Adults",
+    "initiativeCategoryName": "Program",
+    "locationName": "Riyadh - Headquarters",
+    "initiativeScopeName": "Mechatronics Engineering",
+    "goals": [
+      "Introduce trainees to the Arduino platform and its main components",
+      "Learn the C++ programming language",
+      "Understand basic electrical and electronics principles for Arduino",
+      "Build the ability to connect various sensors",
+      "Develop problem-solving and creative thinking skills in electronics and programming"
+    ],
+    "features": [
+      "Focus on practical applications and real projects",
+      "Starts with basic concepts and gradually progresses",
+      "Opens the door to advanced techniques and applications",
+      "Combines programming, electronics, and design",
+      "Covers diverse fields."
+    ],
+    "requirements": [
+      "The applicant must be Saudi.",
+      "Own a personal laptop.",
+      "Commitment to attend all training sessions.",
+      "Experience in any programming language."
+    ],
+    "faqs": {},
+    "initiativeProCertificate": null,
+    "slug": "aXnlZBPK",
+    "registrationEndDate": "2025-05-18T12:00:00+03:00",
+    "minimumAge": 18,
+    "maximumAge": 100,
+    "locationText": "Riyadh - Headquarters",
+    "startDateText": "25-05-2025",
+    "endDateText": "29-05-2025",
+    "startTimeText": "12:00 PM",
+    "endTimeText": "3:00 PM",
+    "durationText": "12:00 PM - 03:00 PM"
+  },
+  {
+    "title": "Fundamentals of Cloud Infrastructure Engineering with Google Cloud",
+    "description": "This program offers a comprehensive introduction to the core concepts and services of Google Cloud Platform (GCP),\nhelping beginners understand GCP’s foundational infrastructure, including computing, storage, and networking. It emphasizes hands-on learning through tools like the Google Cloud Console and Cloud Shell to enhance participants’ practical experience in building and deploying cloud applications effectively.\n",
+    "startDate": "2025-05-25T16:00:00+03:00",
+    "endDate": "2025-05-29T20:00:00+03:00",
+    "isRegistrationOpen": true,
+    "isRegistrationClosed": false,
+    "language": "en",
+    "video": "<div class=\"mx-auto relative w-full h-full !sm:h-[35rem]\" style=\"min-height:35vh !important; height:100%\"> <iframe src=\"https://player.vimeo.com/video/1013242135?title=0&byline=0&portrait=0&badge=0&autopause=0&player_id=0&app_id=58479\" frameborder=\"0\" allow=\"autoplay; fullscreen; picture-in-picture; clipboard-write\" title=\"عام لبرامج الكبار\" style=\"position:absolute; top:0; left:0; width:100%; height:100%;\" ></iframe></div>",
+    "initiativeAgeName": "Adults",
+    "initiativeCategoryName": "Program",
+    "locationName": "Riyadh - Headquarters",
+    "initiativeScopeName": "Cloud Computing",
+    "goals": [
+      "Gain comprehensive understanding of cloud computing concepts and their business value",
+      "Understand the value Google Cloud provides to organizations and developers",
+      "Learn to manage projects and resources with Google Cloud Resource Manager and Cloud IAM",
+      "Explore storage options like Cloud Storage, Cloud SQL, and BigQuery",
+      "Apply best practices in networking including VPCs, subnets, secure connections, and data routing",
+      "Gain hands-on experience via exercises using Console and Cloud Shell; deploy and test app performance on Google Cloud."
+    ],
+    "features": [
+      "Application-based learning methodology",
+      "Practical training using Google Cloud Console and Cloud Shell to gain skills in resource management and app deployment",
+      "Prepares participants for Google Cloud certifications such as Associate Cloud Engineer and encourages real-world application",
+      "Guided by certified instructors to ensure comprehension of core concepts",
+      "Supportive and competitive environment."
+    ],
+    "requirements": [
+      "The applicant must be Saudi.",
+      "Own a personal laptop.",
+      "Bachelor's degree in a technical field.",
+      "Commitment to attend all training sessions.",
+      "Good level of English.",
+      "Basic IT background (e.g., networks, operating systems, databases) and willingness to do hands-on learning and use technical tools."
+    ],
+    "faqs": {
+      " هل يتم إشعاري بالقبول؟": "يتم إشعارك بالقبول النهائي عبر البريد الإلكتروني قبل بدء المعسكر / البرنامج بفترة كافية.\n",
+      "هل توجد شهادة بعد انتهاء المعسكر / البرنامج؟": "تقدم أكاديمية طويق معسكرات وبرامج بشهادات احترافية بالشراكة مع كبرى الجهات العالمية، بالإضافة إلى شهادات حضور لكافة المعسكرات والبرامج.\n"
+    },
+    "initiativeProCertificate": null,
+    "slug": "XxaqxjDZ",
+    "registrationEndDate": "2025-05-18T12:00:00+03:00",
+    "minimumAge": 18,
+    "maximumAge": 100,
+    "locationText": "Riyadh - Headquarters",
+    "startDateText": "25-05-2025",
+    "endDateText": "29-05-2025",
+    "startTimeText": "4:00 PM",
+    "endTimeText": "8:00 PM",
+    "durationText": "04:00 PM - 08:00 PM"
+  },
+  {
+    "title": "Security+ Information Security",
+    "description": "The program introduces the foundational units of information security,\nfamiliarizing participants with cybersecurity challenges, threats, and advanced methods for protecting data privacy. It also prepares trainees with the knowledge needed to pass the global certification exam (CompTIA Security+ Certification).",
+    "startDate": "2025-05-25T17:00:00+03:00",
+    "endDate": "2025-06-05T21:00:00+03:00",
+    "isRegistrationOpen": true,
+    "isRegistrationClosed": false,
+    "language": "en",
+    "video": "<div class=\"mx-auto relative w-full h-full !sm:h-[35rem]\" style=\"min-height:35vh !important; height:100%\"> <iframe src=\"https://player.vimeo.com/video/1013242135?title=0&amp;byline=0&amp;portrait=0&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479\" frameborder=\"0\" allow=\"autoplay; fullscreen; picture-in-picture; clipboard-write\" title=\"عام لبرامج الكبار\" style=\"position:absolute; top:0; left:0; width:100%; height:100%;\" ></iframe></div>",
+    "initiativeAgeName": "Adults",
+    "initiativeCategoryName": "Program",
+    "locationName": "Riyadh - Headquarters",
+    "initiativeScopeName": " Cybersecurity",
+    "goals": [
+      "Identify cybersecurity threats and attacks",
+      "Understand types and uses of encryption tools",
+      "Learn core cybersecurity concepts and their importance to all organizations",
+      "Apply confidentiality, integrity, and availability principles",
+      "Protect privacy and personal data from breaches",
+      "Handle social engineering attempts",
+      "Apply risk management policies using specific tools."
+    ],
+    "features": [
+      "Supportive and competitive environment",
+      "Scenario-based learning methodology linking course topics to real cybersecurity situations",
+      "Guidance from technical experts to ensure optimal skill acquisition."
+    ],
+    "requirements": [
+      "The applicant must be Saudi.",
+      "Own a personal laptop.",
+      "Familiarity with programming basics, preferably in C++ and Python.",
+      "Basic knowledge of computers, networks, and electronic devices."
+    ],
+    "faqs": {
+      "هل توجد شهادة بعد انتهاء المعسكر / البرنامج؟": "تقدم أكاديمية طويق معسكرات وبرامج بشهادات احترافية بالشراكة مع كبرى الجهات العالمية، بالإضافة إلى شهادات حضور لكافة المعسكرات والبرامج.\n",
+      "هل يتم إشعاري بالقبول؟": "يتم إشعارك بالقبول النهائي عبر البريد الإلكتروني قبل بدء المعسكر / البرنامج بفترة كافية.\n"
+    },
+    "initiativeProCertificate": null,
+    "slug": "o4p4bEvl",
+    "registrationEndDate": "2025-05-18T12:00:00+03:00",
+    "minimumAge": 18,
+    "maximumAge": 100,
+    "locationText": "Riyadh - Headquarters",
+    "startDateText": "25-05-2025",
+    "endDateText": "05-06-2025",
+    "startTimeText": "5:00 PM",
+    "endTimeText": "9:00 PM",
+    "durationText": "05:00 PM - 09:00 PM"
+  },
+  {
+    "title": "Fundamentals of the Internet of Things (IoT)",
+    "description": "This program introduces participants to the basic concepts of the Internet of Things (IoT) and how to design and develop connected systems\nthat integrate smart devices with the cloud. It includes both theoretical and practical components covering programming, hardware, communication protocols, and IoT solutions — all within an applied learning environment led by a specialized instructional team.\n",
+    "startDate": "2025-05-25T17:00:00+03:00",
+    "endDate": "2025-05-29T21:00:00+03:00",
+    "isRegistrationOpen": true,
+    "isRegistrationClosed": false,
+    "language": "en",
+    "video": "<div class=\"mx-auto relative w-full h-full !sm:h-[35rem]\" style=\"min-height:35vh !important; height:100%\"> <iframe src=\"https://player.vimeo.com/video/1013242135?title=0&amp;byline=0&amp;portrait=0&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479\" frameborder=\"0\" allow=\"autoplay; fullscreen; picture-in-picture; clipboard-write\" title=\"عام لبرامج الكبار\" style=\"position:absolute; top:0; left:0; width:100%; height:100%;\" ></iframe></div>",
+    "initiativeAgeName": "Adults",
+    "initiativeCategoryName": "Program",
+    "locationName": "Riyadh - Headquarters",
+    "initiativeScopeName": "Software and Application Development",
+    "goals": [
+      "Understand core concepts and foundations of the Internet of Things (IoT)",
+      "Explore IoT applications across industries",
+      "Learn to program connected devices using Raspberry Pi, Arduino, ESP, etc.",
+      "Master communication protocols like MQTT and HTTP",
+      "Understand security and privacy frameworks for connected systems."
+    ],
+    "features": [
+      "Intensive hands-on training focused on real-world applications",
+      "Small training groups to enable direct interaction with the instructor",
+      "Provision of training materials and tools for practical application",
+      "Certificate of completion accredited by the academy."
+    ],
+    "requirements": [
+      "The applicant must be Saudi.",
+      "Own a personal laptop.",
+      "Familiarity with programming basics, preferably in C++ and Python.",
+      "Basic knowledge of computers, networks, and electronic devices."
+    ],
+    "faqs": {
+      "هل توجد شهادة بعد انتهاء البرنامج؟": "تقدم أكاديمية طويق معسكرات وبرامج بشهادات احترافية بالشراكة مع كبرى الجهات العالمية، بالإضافة إلى شهادات حضور لكافة المعسكرات والبرامج.\n",
+      "هل يتم إشعاري بالقبول؟": "يتم إشعارك بالقبول النهائي عبر البريد الإلكتروني قبل بدء البرنامج بفترة كافية."
+    },
+    "initiativeProCertificate": null,
+    "slug": "eox97Pk9",
+    "registrationEndDate": "2025-05-18T12:00:00+03:00",
+    "minimumAge": 18,
+    "maximumAge": 100,
+    "locationText": "Riyadh - Headquarters",
+    "startDateText": "25-05-2025",
+    "endDateText": "29-05-2025",
+    "startTimeText": "5:00 PM",
+    "endTimeText": "9:00 PM",
+    "durationText": "05:00 PM - 09:00 PM"
+  },
+  {
+    "title": "Drone Building and Calibration",
+    "description": "A training program focused on the fundamentals of drone technology, along with the engineering and scientific principles behind it.\nParticipants will explore the parts and systems of drones, the role of each subsystem, and how to control them through programming. The program includes a practical component where trainees will build and operate drones from scratch, all within a hands-on learning environment under expert supervision.",
+    "startDate": "2025-05-25T18:00:00+03:00",
+    "endDate": "2025-06-05T20:00:00+03:00",
+    "isRegistrationOpen": true,
+    "isRegistrationClosed": false,
+    "language": "en",
+    "video": "<div class=\"mx-auto relative w-full h-full !sm:h-[35rem]\" style=\"min-height:35vh !important; height:100%\"> <iframe src=\"https://player.vimeo.com/video/1013242135?title=0&byline=0&portrait=0&badge=0&autopause=0&player_id=0&app_id=58479\" frameborder=\"0\" allow=\"autoplay; fullscreen; picture-in-picture; clipboard-write\" title=\"عام لبرامج الكبار\" style=\"position:absolute; top:0; left:0; width:100%; height:100%;\" ></iframe></div>",
+    "initiativeAgeName": "Adults",
+    "initiativeCategoryName": "Program",
+    "locationName": "Riyadh - Headquarters",
+    "initiativeScopeName": "Mechatronics Engineering",
+    "goals": [
+      "Understand drone systems and components and their uses",
+      "Learn drone dynamics and autonomous systems",
+      "Explore core drone operation techniques and communication systems",
+      "Learn how to build and program drones."
+    ],
+    "features": [
+      "Program delivered in Arabic",
+      "Interactive semester project to build, assemble, and program drones",
+      "Certificates of attendance provided by Tuwaiq Academy",
+      "Hands-on drone operation training."
+    ],
+    "requirements": [
+      "The applicant must be Saudi.",
+      "Commitment to attend all training sessions.",
+      "Good level of English.",
+      "Technical background."
+    ],
+    "faqs": {
+      "هل يتم إشعاري بالقبول؟": "يتم إشعارك بالقبول النهائي عبر البريد الإلكتروني قبل بدء المعسكر / البرنامج بفترة كافية.\n",
+      "هل توجد شهادة بعد انتهاء المعسكر / البرنامج؟": "تقدم أكاديمية طويق معسكرات وبرامج بشهادات احترافية بالشراكة مع كبرى الجهات العالمية، بالإضافة إلى شهادات حضور لكافة المعسكرات والبرامج.\n\n"
+    },
+    "initiativeProCertificate": null,
+    "slug": "qnreZwPm",
+    "registrationEndDate": "2025-05-18T12:00:00+03:00",
+    "minimumAge": 18,
+    "maximumAge": 100,
+    "locationText": "Riyadh - Headquarters",
+    "startDateText": "25-05-2025",
+    "endDateText": "05-06-2025",
+    "startTimeText": "6:00 PM",
+    "endTimeText": "8:00 PM",
+    "durationText": "06:00 PM - 08:00 PM"
+  },
+  {
+    "title": "Drone Basics",
+    "description": "This program prepares trainees for advanced and specialized drone courses\nby introducing them to drone technology, its components, basic operations, and control mechanisms. It also includes general maintenance of core equipment and familiarization with recreational drone aviation regulations all delivered in a practical training environment that enhances participants' skills through real-world experiences.\n",
+    "startDate": "2025-05-25T18:00:00+03:00",
+    "endDate": "2025-05-29T20:00:00+03:00",
+    "isRegistrationOpen": true,
+    "isRegistrationClosed": false,
+    "language": "en",
+    "video": "<div class=\"mx-auto relative w-full h-full !sm:h-[35rem]\" style=\"min-height:35vh !important; height:100%\"> <iframe src=\"https://player.vimeo.com/video/1013242135?title=0&byline=0&portrait=0&badge=0&autopause=0&player_id=0&app_id=58479\" frameborder=\"0\" allow=\"autoplay; fullscreen; picture-in-picture; clipboard-write\" title=\"عام لبرامج الكبار\" style=\"position:absolute; top:0; left:0; width:100%; height:100%;\" ></iframe></div>",
+    "initiativeAgeName": "Adults",
+    "initiativeCategoryName": "Program",
+    "locationName": "Riyadh - Headquarters",
+    "initiativeScopeName": "Mechatronics Engineering",
+    "goals": [
+      "Learn the fundamentals of drone technology",
+      "Understand drone operation",
+      "Learn general maintenance of basic equipment",
+      "Understand recreational aviation regulations."
+    ],
+    "features": [
+      "Application-based learning methodology",
+      "Supportive and competitive learning environment",
+      "Interactive activities and projects",
+      "Program delivered in Arabic",
+      "Practical drone operation training."
+    ],
+    "requirements": [
+      "The applicant must be Saudi.",
+      "Commitment to attend all training sessions.",
+      "Good level of English."
+    ],
+    "faqs": {
+      "هل توجد شهادة بعد انتهاء البرنامج؟": "تقدم أكاديمية طويق معسكرات وبرامج بشهادات احترافية بالشراكة مع كبرى الجهات العالمية، بالإضافة إلى شهادات حضور لكافة المعسكرات والبرامج.",
+      "هل يتم إشعاري بالقبول؟": "يتم إشعارك بالقبول النهائي عبر البريد الإلكتروني قبل بدء المعسكر / البرنامج بفترة كافية."
+    },
+    "initiativeProCertificate": null,
+    "slug": "BxJR70mj",
+    "registrationEndDate": "2025-05-18T12:00:00+03:00",
+    "minimumAge": 18,
+    "maximumAge": 100,
+    "locationText": "Riyadh - Headquarters",
+    "startDateText": "25-05-2025",
+    "endDateText": "29-05-2025",
+    "startTimeText": "6:00 PM",
+    "endTimeText": "8:00 PM",
+    "durationText": "06:00 PM - 08:00 PM"
+  },
+  {
+    "title": "Excel for Beginners",
+    "description": "The program aims to teach participants the basics of using Microsoft Excel,\nincluding how to organize and create data in tables and charts efficiently. By the end of the program, participants will understand essential Excel skills, be able to use mathematical and logical formulas, and create clean, professional charts and tables.",
+    "startDate": "2025-05-25T18:00:00+03:00",
+    "endDate": "2025-05-29T21:00:00+03:00",
+    "isRegistrationOpen": true,
+    "isRegistrationClosed": false,
+    "language": "en",
+    "video": "<div class=\"mx-auto relative w-full h-full !sm:h-[35rem]\" style=\"min-height:35vh !important; height:100%\"> <iframe src=\"https://player.vimeo.com/video/1013242135?title=0&amp;byline=0&amp;portrait=0&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479\" frameborder=\"0\" allow=\"autoplay; fullscreen; picture-in-picture; clipboard-write\" title=\"عام لبرامج الكبار\" style=\"position:absolute; top:0; left:0; width:100%; height:100%;\" ></iframe></div>",
+    "initiativeAgeName": "Adults",
+    "initiativeCategoryName": "Program",
+    "locationName": "Riyadh - Headquarters",
+    "initiativeScopeName": "Data Science and Artificial Intelligence",
+    "goals": [
+      "Learn how to organize and structure data in charts",
+      "Use functions like VLOOKUP and IF to structure and present data",
+      "Understand and apply Pivot Tables and how to categorize and display data simply."
+    ],
+    "features": [
+      "Application-based learning methodology",
+      "Supportive and competitive learning environment."
+    ],
+    "requirements": [
+      "The applicant must be Saudi.",
+      "Own a personal laptop."
+    ],
+    "faqs": {
+      "هل يتم إشعاري بالقبول؟": "يتم إشعارك بالقبول النهائي عبر البريد الإلكتروني قبل بدء المعسكر / البرنامج بفترة كافية.",
+      "هل توجد شهادة بعد انتهاء المعسكر / البرنامج؟ ": "تقدم أكاديمية طويق معسكرات وبرامج بشهادات احترافية بالشراكة مع كبرى الجهات العالمية، بالإضافة إلى شهادات حضور لكافة المعسكرات والبرامج."
+    },
+    "initiativeProCertificate": null,
+    "slug": "PWjRxLy5",
+    "registrationEndDate": "2025-05-18T12:00:00+03:00",
+    "minimumAge": 18,
+    "maximumAge": 100,
+    "locationText": "Riyadh - Headquarters",
+    "startDateText": "25-05-2025",
+    "endDateText": "29-05-2025",
+    "startTimeText": "6:00 PM",
+    "endTimeText": "9:00 PM",
+    "durationText": "06:00 PM - 09:00 PM"
+  },
+  {
+    "title": "Drone Operation with Artificial Intelligence Algorithms",
+    "description": "The “Artificial Intelligence and Drones” program enables trainees to grasp key AI concepts and apply them in real-world scenarios.\nParticipants will learn about AI and drone applications, image processing, and how to train a YOLO model on real data to integrate AI into drone operations.",
+    "startDate": "2025-06-15T18:00:00+03:00",
+    "endDate": "2025-06-26T20:00:00+03:00",
+    "isRegistrationOpen": true,
+    "isRegistrationClosed": false,
+    "language": "en",
+    "video": "<div class=\"mx-auto relative w-full h-full !sm:h-[35rem]\" style=\"min-height:35vh !important; height:100%\"> <iframe src=\"https://player.vimeo.com/video/1013242135?title=0&amp;byline=0&amp;portrait=0&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479\" frameborder=\"0\" allow=\"autoplay; fullscreen; picture-in-picture; clipboard-write\" title=\"عام لبرامج الكبار\" style=\"position:absolute; top:0; left:0; width:100%; height:100%;\" ></iframe></div>",
+    "initiativeAgeName": "Adults",
+    "initiativeCategoryName": "Program",
+    "locationName": "Riyadh - Headquarters",
+    "initiativeScopeName": "Mechatronics Engineering",
+    "goals": [
+      "Understand artificial intelligence and drone applications",
+      "Learn the fundamentals of image processing",
+      "Learn how to apply AI models such as YOLO to drones."
+    ],
+    "features": [
+      "Program delivered in Arabic",
+      "Interactive activities and projects",
+      "Certificates of attendance from Tuwaiq Academy",
+      "Hands-on drone programming and operation training."
+    ],
+    "requirements": [
+      "The applicant must be Saudi.",
+      "Commitment to attend all training sessions.",
+      "Good level of English.",
+      "Technical and programming background."
+    ],
+    "faqs": {},
+    "initiativeProCertificate": null,
+    "slug": "o1Q62Q5V",
+    "registrationEndDate": "2025-06-08T12:00:00+03:00",
+    "minimumAge": 18,
+    "maximumAge": 100,
+    "locationText": "Riyadh - Headquarters",
+    "startDateText": "15-06-2025",
+    "endDateText": "26-06-2025",
+    "startTimeText": "6:00 PM",
+    "endTimeText": "8:00 PM",
+    "durationText": "06:00 PM - 08:00 PM"
+  },
+  {
+    "title": "High-Speed Drone (FPV Drone)",
+    "description": "A training program designed to elevate beginners and hobbyists to an advanced level.\nThe program combines theoretical instruction with hands-on practice through simulations and real-world training. Participants will focus on drone assembly, setup, calibration, mastering flight skills, and becoming proficient with soldering techniques and electrical tools.",
+    "startDate": "2025-06-15T18:00:00+03:00",
+    "endDate": "2025-06-26T20:00:00+03:00",
+    "isRegistrationOpen": true,
+    "isRegistrationClosed": false,
+    "language": "en",
+    "video": "<div class=\"mx-auto relative w-full h-full !sm:h-[35rem]\" style=\"min-height:35vh !important; height:100%\"> <iframe src=\"https://player.vimeo.com/video/1013242135?title=0&amp;byline=0&amp;portrait=0&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479\" frameborder=\"0\" allow=\"autoplay; fullscreen; picture-in-picture; clipboard-write\" title=\"عام لبرامج الكبار\" style=\"position:absolute; top:0; left:0; width:100%; height:100%;\" ></iframe></div>",
+    "initiativeAgeName": "Adults",
+    "initiativeCategoryName": "Program",
+    "locationName": "Riyadh - Headquarters",
+    "initiativeScopeName": "Mechatronics Engineering",
+    "goals": [
+      "Understand FPV drone components, assembly, and basic maintenance",
+      "Set up and calibrate drones using Betaflight",
+      "Acquire hands-on flight skills",
+      "Master soldering techniques and electrical tools."
+    ],
+    "features": [
+      "Program delivered in Arabic",
+      "Interactive activities and projects",
+      "Practical drone operation training."
+    ],
+    "requirements": [
+      "The applicant must be Saudi.",
+      "Commitment to attend all training sessions.",
+      "Good level of English.",
+      "Technical background."
+    ],
+    "faqs": {
+      "هل يتم إشعاري بالقبول؟": "يتم إشعارك بالقبول النهائي عبر البريد الإلكتروني قبل بدء المعسكر / البرنامج بفترة كافية.\n",
+      "هل توجد شهادة بعد انتهاء المعسكر / البرنامج؟": "تقدم أكاديمية طويق معسكرات وبرامج بشهادات احترافية بالشراكة مع كبرى الجهات العالمية، بالإضافة إلى شهادات حضور لكافة المعسكرات والبرامج.\n\n"
+    },
+    "initiativeProCertificate": null,
+    "slug": "PNxGvrv6",
+    "registrationEndDate": "2025-06-08T12:00:00+03:00",
+    "minimumAge": 18,
+    "maximumAge": 100,
+    "locationText": "Riyadh - Headquarters",
+    "startDateText": "15-06-2025",
+    "endDateText": "26-06-2025",
+    "startTimeText": "6:00 PM",
+    "endTimeText": "8:00 PM",
+    "durationText": "06:00 PM - 08:00 PM"
+  },
+  {
+    "title": "Game design and programming",
+    "description": "This program introduces concepts and provides hands-on experience in game design and development.\nIt follows a blended learning model that combines self-paced online learning with in-person training. Trainees are required to complete online MOOC units before attending the in-person sessions. The program enables students to build a game prototype, enhancing their practical learning and preparing them to enter the game development industry professionally.",
+    "startDate": "2025-06-15T18:00:00+03:00",
+    "endDate": "2025-07-03T22:00:00+03:00",
+    "isRegistrationOpen": true,
+    "isRegistrationClosed": false,
+    "language": "en",
+    "video": "<div class=\"mx-auto relative w-full h-full !sm:h-[35rem]\" style=\"min-height:35vh !important; height:100%\"> <iframe src=\"https://player.vimeo.com/video/1013242135?title=0&byline=0&portrait=0&badge=0&autopause=0&player_id=0&app_id=58479\" frameborder=\"0\" allow=\"autoplay; fullscreen; picture-in-picture; clipboard-write\" title=\"عام لبرامج الكبار\" style=\"position:absolute; top:0; left:0; width:100%; height:100%;\" ></iframe></div>",
+    "initiativeAgeName": "Adults",
+    "initiativeCategoryName": "Program",
+    "locationName": "Riyadh - Headquarters",
+    "initiativeScopeName": "Software and Application Development",
+    "goals": [
+      "Gain a comprehensive understanding of game design and development",
+      "Develop student skills in creating game prototypes",
+      "Execute practical projects to enhance game development skills."
+    ],
+    "features": [
+      "Application-based learning methodology",
+      "Scientific and practical knowledge in game development",
+      "Professional certifications offered by HP."
+    ],
+    "requirements": [
+      "The applicant must be Saudi.",
+      "Own a personal laptop.",
+      "Bachelor's degree in a programming-related field.",
+      "Completion of MOOC units online."
+    ],
+    "faqs": {
+      "هل توجد شهادة بعد انتهاء البرنامج؟": "تقدم أكاديمية طويق معسكرات وبرامج بشهادات احترافية بالشراكة مع كبرى الجهات العالمية، بالإضافة إلى شهادات حضور لكافة المعسكرات والبرامج.",
+      "هل يتم إشعاري بالقبول؟": "يتم إشعارك بالقبول النهائي عبر البريد الإلكتروني قبل بدء البرنامج بفترة كافية."
+    },
+    "initiativeProCertificate": null,
+    "slug": "oWXpB948",
+    "registrationEndDate": "2025-06-08T12:00:00+03:00",
+    "minimumAge": 18,
+    "maximumAge": 100,
+    "locationText": "Riyadh - Headquarters",
+    "startDateText": "15-06-2025",
+    "endDateText": "03-07-2025",
+    "startTimeText": "6:00 PM",
+    "endTimeText": "10:00 PM",
+    "durationText": "06:00 PM - 10:00 PM"
+  },
+  {
+    "title": "Web Development with ASP.net Core MVC",
+    "description": "The program aims to build a solid foundation in software development using modern frameworks.\nParticipants will explore the concept of frameworks and the MVC (Model-View-Controller) pattern, including how to create key components such as Views, Models, and Controllers. The course also covers working with forms and databases, performing CRUD operations, exploring and testing APIs within and outside the project, and implementing essential security practices such as authentication for login, registration, and logout.",
+    "startDate": "2025-06-15T18:00:00+03:00",
+    "endDate": "2025-07-17T21:00:00+03:00",
+    "isRegistrationOpen": true,
+    "isRegistrationClosed": false,
+    "language": "en",
+    "video": "<div class=\"mx-auto relative w-full h-full !sm:h-[35rem]\" style=\"min-height:35vh !important; height:100%\"> <iframe src=\"https://player.vimeo.com/video/1013242135?title=0&byline=0&portrait=0&badge=0&autopause=0&player_id=0&app_id=58479\" frameborder=\"0\" allow=\"autoplay; fullscreen; picture-in-picture; clipboard-write\" title=\"عام لبرامج الكبار\" style=\"position:absolute; top:0; left:0; width:100%; height:100%;\" ></iframe></div>",
+    "initiativeAgeName": "Adults",
+    "initiativeCategoryName": "Program",
+    "locationName": "Riyadh - Headquarters",
+    "initiativeScopeName": "Cybersecurity",
+    "goals": [
+      "Understand the full structure of an ASP.NET Core MVC project",
+      "Learn how to manage the frontend",
+      "Understand integration between project components and data exchange among Model, Controller, and View",
+      "Develop database management skills and perform basic operations",
+      "Gain the ability to implement security features and build authentication pages",
+      "Explore technical areas such as APIs and project management using GitHub."
+    ],
+    "features": [
+      "Application-based learning methodology",
+      "Supportive and competitive environment",
+      "Program delivered in Arabic",
+      "Use of Zoom to reach all students",
+      "Use of PowerPoint, diagrams, and code editors."
+    ],
+    "requirements": [
+      "The applicant must be Saudi.",
+      "Own a personal laptop.",
+      "Student major must be in a technical field."
+    ],
+    "faqs": {
+      "هل توجد شهادة بعد انتهاء البرنامج؟": "تقدم أكاديمية طويق معسكرات وبرامج بشهادات احترافية بالشراكة مع كبرى الجهات العالمية، بالإضافة إلى شهادات حضور لكافة المعسكرات والبرامج.\n",
+      "هل يتم إشعاري بالقبول؟": "يتم إشعارك بالقبول النهائي عبر البريد الإلكتروني قبل بدء المعسكر / البرنامج بفترة كافية."
+    },
+    "initiativeProCertificate": null,
+    "slug": "XwO4q1a3",
+    "registrationEndDate": "2025-06-01T12:00:00+03:00",
+    "minimumAge": 18,
+    "maximumAge": 100,
+    "locationText": "Riyadh - Headquarters",
+    "startDateText": "15-06-2025",
+    "endDateText": "17-07-2025",
+    "startTimeText": "6:00 PM",
+    "endTimeText": "9:00 PM",
+    "durationText": "06:00 PM - 09:00 PM"
+  },
+  {
+    "title": "Drone Programming and Operation",
+    "description": "This program focuses on the technical programming concepts behind drones, along with the engineering and scientific principles supporting them.\nTrainees will learn about drone systems and components, how to integrate them with programming for control, and how to operate them in simulated environments. These simulations replicate real-world tasks to test drone performance in a safe, virtual space.",
+    "startDate": "2025-06-15T18:00:00+03:00",
+    "endDate": "2025-06-26T20:00:00+03:00",
+    "isRegistrationOpen": true,
+    "isRegistrationClosed": false,
+    "language": "en",
+    "video": "<div class=\"mx-auto relative w-full h-full !sm:h-[35rem]\" style=\"min-height:35vh !important; height:100%\"> <iframe src=\"https://player.vimeo.com/video/1013242135?title=0&amp;byline=0&amp;portrait=0&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479\" frameborder=\"0\" allow=\"autoplay; fullscreen; picture-in-picture; clipboard-write\" title=\"عام لبرامج الكبار\" style=\"position:absolute; top:0; left:0; width:100%; height:100%;\" ></iframe></div>",
+    "initiativeAgeName": "Adults",
+    "initiativeCategoryName": "Program",
+    "locationName": "Riyadh - Headquarters",
+    "initiativeScopeName": " Mechatronics Engineering",
+    "goals": [
+      "Learn drone programming tools",
+      "Explore and build virtual simulation systems",
+      "Complete hands-on projects to enhance drone programming skills."
+    ],
+    "features": [
+      "Interactive semester project to build a virtual environment for drone programming",
+      "Hands-on drone programming training",
+      "Program delivered in Arabic."
+    ],
+    "requirements": [
+      "The applicant must be Saudi.",
+      "Commitment to attend all training sessions.",
+      "Good level of English.",
+      "Programming background."
+    ],
+    "faqs": {},
+    "initiativeProCertificate": null,
+    "slug": "jgAqL08v",
+    "registrationEndDate": "2025-06-08T12:00:00+03:00",
+    "minimumAge": 18,
+    "maximumAge": 100,
+    "locationText": "Riyadh - Headquarters",
+    "startDateText": "15-06-2025",
+    "endDateText": "26-06-2025",
+    "startTimeText": "6:00 PM",
+    "endTimeText": "8:00 PM",
+    "durationText": "06:00 PM - 08:00 PM"
+  },
+  {
+    "title": "Data Analysis Using R Language",
+    "description": "The program aims to equip participants with the skills needed to efficiently analyze and process data.\nIt focuses on learning the fundamentals of the R programming language and its applications in data analysis and statistics. Training takes place in a hands-on educational setting under the guidance of a specialized instructional team.\n\n\n",
+    "startDate": "2025-06-22T14:00:00+03:00",
+    "endDate": "2025-07-03T16:00:00+03:00",
+    "isRegistrationOpen": true,
+    "isRegistrationClosed": false,
+    "language": "en",
+    "video": "<div class=\"mx-auto relative w-full h-full !sm:h-[35rem]\" style=\"min-height:35vh !important; height:100%\"> <iframe src=\"https://player.vimeo.com/video/1013242135?title=0&byline=0&portrait=0&badge=0&autopause=0&player_id=0&app_id=58479\" frameborder=\"0\" allow=\"autoplay; fullscreen; picture-in-picture; clipboard-write\" title=\"عام لبرامج الكبار\" style=\"position:absolute; top:0; left:0; width:100%; height:100%;\" ></iframe></div>",
+    "initiativeAgeName": "Adults",
+    "initiativeCategoryName": "Program",
+    "locationName": "Remote",
+    "initiativeScopeName": "Data Science and Artificial Intelligence",
+    "goals": [
+      "Gain a comprehensive understanding of the R programming language and its fundamentals",
+      "Develop statistical and visual data analysis skills using R",
+      "Learn how to apply R to real-world data analysis projects",
+      "Understand advanced techniques in R for data analytics."
+    ],
+    "features": [
+      "Application-based learning methodology",
+      "Supportive and competitive environment",
+      "Program delivered in Arabic."
+    ],
+    "requirements": [
+      "The applicant must be Saudi.",
+      "Own a personal laptop.",
+      "Student major must be in a technical field."
+    ],
+    "faqs": {
+      "هل توجد شهادة بعد انتهاء البرنامج؟": "تقدم أكاديمية طويق معسكرات وبرامج بشهادات احترافية بالشراكة مع كبرى الجهات العالمية، بالإضافة إلى شهادات حضور لكافة المعسكرات والبرامج.\n",
+      "هل يتم إشعاري بالقبول؟": "يتم إشعارك بالقبول النهائي عبر البريد الإلكتروني قبل بدء المعسكر / البرنامج بفترة كافية."
+    },
+    "initiativeProCertificate": null,
+    "slug": "V7Q8bXaL",
+    "registrationEndDate": "2025-06-15T12:00:00+03:00",
+    "minimumAge": 18,
+    "maximumAge": 100,
+    "locationText": "Remote",
+    "startDateText": "22-06-2025",
+    "endDateText": "03-07-2025",
+    "startTimeText": "2:00 PM",
+    "endTimeText": "4:00 PM",
+    "durationText": "02:00 PM - 04:00 PM"
+  },
+  {
+    "title": "Drone Basics",
+    "description": "This program prepares trainees for advanced and specialized drone courses by teaching them the basics of drone technology and operation.\nParticipants will learn how to operate and control drones, perform routine maintenance on essential equipment, and understand the regulatory framework for recreational drone aviation. The program emphasizes real-world practice through hands-on training designed to build participants’ confidence and capabilities",
+    "startDate": "2025-06-22T18:00:00+03:00",
+    "endDate": "2025-06-26T20:00:00+03:00",
+    "isRegistrationOpen": true,
+    "isRegistrationClosed": false,
+    "language": "en",
+    "video": "<div class=\"mx-auto relative w-full h-full !sm:h-[35rem]\" style=\"min-height:35vh !important; height:100%\"> <iframe src=\"https://player.vimeo.com/video/1013242135?title=0&byline=0&portrait=0&badge=0&autopause=0&player_id=0&app_id=58479\" frameborder=\"0\" allow=\"autoplay; fullscreen; picture-in-picture; clipboard-write\" title=\"عام لبرامج الكبار\" style=\"position:absolute; top:0; left:0; width:100%; height:100%;\" ></iframe></div>",
+    "initiativeAgeName": "Adults",
+    "initiativeCategoryName": "Program",
+    "locationName": "Riyadh - Headquarters",
+    "initiativeScopeName": " Mechatronics Engineering",
+    "goals": [
+      "Learn the fundamentals of drone technology",
+      "Understand how to operate drones",
+      "Learn general maintenance of essential equipment",
+      "Understand recreational aviation regulations."
+    ],
+    "features": [
+      "Application-based learning methodology",
+      "Supportive and competitive environment",
+      "Interactive activities and projects",
+      "Program delivered in Arabic",
+      "Hands-on drone operation training."
+    ],
+    "requirements": [
+      "The applicant must be Saudi.",
+      "Commitment to attend all training sessions.",
+      "Good level of English."
+    ],
+    "faqs": {
+      "هل توجد شهادة بعد انتهاء البرنامج؟": "تقدم أكاديمية طويق معسكرات وبرامج بشهادات احترافية بالشراكة مع كبرى الجهات العالمية، بالإضافة إلى شهادات حضور لكافة المعسكرات والبرامج.",
+      "هل يتم إشعاري بالقبول؟": "يتم إشعارك بالقبول النهائي عبر البريد الإلكتروني قبل بدء المعسكر / البرنامج بفترة كافية."
+    },
+    "initiativeProCertificate": null,
+    "slug": "4A0m7y27",
+    "registrationEndDate": "2025-06-15T12:00:00+03:00",
+    "minimumAge": 18,
+    "maximumAge": 100,
+    "locationText": "Riyadh - Headquarters",
+    "startDateText": "22-06-2025",
+    "endDateText": "26-06-2025",
+    "startTimeText": "6:00 PM",
+    "endTimeText": "8:00 PM",
+    "durationText": "06:00 PM - 08:00 PM"
+  },
+  {
+    "title": "Cloud Solutions Engineering Using Google Compute Engine",
+    "description": "This program introduces participants to the flexible cloud infrastructure and core services of Google Cloud, with a focus on Compute Engine.\nYou’ll learn how to explore and deploy cloud solution components, including infrastructure such as networks, systems, and application services. The program also covers implementing practical solutions like setting up hybrid networks, managing encryption keys, applying security mechanisms and access control, understanding billing systems, monitoring resources, and optimizing performance.\n",
+    "startDate": "2025-06-29T16:00:00+03:00",
+    "endDate": "2025-07-10T20:00:00+03:00",
+    "isRegistrationOpen": true,
+    "isRegistrationClosed": false,
+    "language": "en",
+    "video": "<div class=\"mx-auto relative w-full h-full !sm:h-[35rem]\" style=\"min-height:35vh !important; height:100%\"> <iframe src=\"https://player.vimeo.com/video/1013242135?title=0&byline=0&portrait=0&badge=0&autopause=0&player_id=0&app_id=58479\" frameborder=\"0\" allow=\"autoplay; fullscreen; picture-in-picture; clipboard-write\" title=\"عام لبرامج الكبار\" style=\"position:absolute; top:0; left:0; width:100%; height:100%;\" ></iframe></div>",
+    "initiativeAgeName": "Adults",
+    "initiativeCategoryName": "Program",
+    "locationName": "Riyadh - Headquarters",
+    "initiativeScopeName": "Cloud Computing",
+    "goals": [
+      "Gain comprehensive understanding of cloud computing concepts and their business value",
+      "Understand the value Google Cloud offers to enterprises and developers",
+      "Interact with Google Cloud and use the Cloud Shell console",
+      "Create and use storage services like Cloud Storage and Cloud SQL",
+      "Deploy solutions using Google Cloud Marketplace",
+      "Implement private networking, security, and access control with IAM",
+      "Manage resources with labels and monitor billing using BigQuery",
+      "Configure high-availability VPN and autoscaling",
+      "Automate infrastructure with Terraform",
+      "Use managed services for data processing in Google Cloud."
+    ],
+    "features": [
+      "Application-based learning methodology",
+      "Supportive and competitive environment",
+      "Hands-on training with Google Cloud Console and Cloud Shell for managing resources and deploying apps",
+      "Certified instructor guidance to ensure quality learning and concept mastery",
+      "Prepares participants for Google Cloud certifications like Associate Cloud Engineer and promotes workplace knowledge application."
+    ],
+    "requirements": [
+      "The applicant must be Saudi.",
+      "Own a personal laptop.",
+      "Bachelor's degree in a technical field.",
+      "Commitment to attend all training sessions.",
+      "Good level of English.",
+      "Basic IT background (e.g., networks, operating systems, databases) and willingness to do hands-on learning and use technical tools."
+    ],
+    "faqs": {
+      "هل توجد شهادة بعد انتهاء البرنامج؟": "تقدم أكاديمية طويق معسكرات وبرامج بشهادات احترافية بالشراكة مع كبرى الجهات العالمية، بالإضافة إلى شهادات حضور لكافة المعسكرات والبرامج.",
+      "هل يتم إشعاري بالقبول؟": "يتم إشعارك بالقبول النهائي عبر البريد الإلكتروني قبل بدء البرنامج بفترة كافية."
+    },
+    "initiativeProCertificate": null,
+    "slug": "3EVqW8op",
+    "registrationEndDate": "2025-06-22T12:00:00+03:00",
+    "minimumAge": 18,
+    "maximumAge": 100,
+    "locationText": "Riyadh - Headquarters",
+    "startDateText": "29-06-2025",
+    "endDateText": "10-07-2025",
+    "startTimeText": "4:00 PM",
+    "endTimeText": "8:00 PM",
+    "durationText": "04:00 PM - 08:00 PM"
+  },
+  {
+    "title": "Data Analysis Using SQL",
+    "description": "The program is designed to provide trainees with strong skills in using SQL for data analysis.\nParticipants will learn how to query and analyze data stored in databases using simple, easy-to-understand commands.\n",
+    "startDate": "2025-07-06T14:00:00+03:00",
+    "endDate": "2025-07-17T16:00:00+03:00",
+    "isRegistrationOpen": true,
+    "isRegistrationClosed": false,
+    "language": "en",
+    "video": "<div class=\"mx-auto relative w-full h-full !sm:h-[35rem]\" style=\"min-height:35vh !important; height:100%\"> <iframe src=\"https://player.vimeo.com/video/1013242135?title=0&byline=0&portrait=0&badge=0&autopause=0&player_id=0&app_id=58479\" frameborder=\"0\" allow=\"autoplay; fullscreen; picture-in-picture; clipboard-write\" title=\"عام لبرامج الكبار\" style=\"position:absolute; top:0; left:0; width:100%; height:100%;\" ></iframe></div>",
+    "initiativeAgeName": "Adults",
+    "initiativeCategoryName": "Program",
+    "locationName": "Remote",
+    "initiativeScopeName": "Data Science and Artificial Intelligence",
+    "goals": [
+      "Learn how to use SQL effectively",
+      "Understand how to extract and analyze data stored in databases",
+      "Fully cover core SQL concepts",
+      "Perform queries, join tables, run aggregations, and apply subqueries, temporary tables, and window functions."
+    ],
+    "features": [
+      "Program delivered in Arabic",
+      "Certificate of attendance provided by Tuwaiq Academy upon completion."
+    ],
+    "requirements": [
+      "The applicant must be Saudi.",
+      "Must hold a bachelor's degree.",
+      "Own a personal laptop.",
+      "Student major must be in a technical field."
+    ],
+    "faqs": {
+      "أين سيقام البرنامج؟": "يقام البرنامج عن بعد",
+      "هل يتوجب علي الحضور لمدينة الرياض للإلتحاق بالبرنامج؟": "لا"
+    },
+    "initiativeProCertificate": null,
+    "slug": "WXB0PB3y",
+    "registrationEndDate": "2025-05-25T12:00:00+03:00",
+    "minimumAge": 18,
+    "maximumAge": 100,
+    "locationText": "Remote",
+    "startDateText": "06-07-2025",
+    "endDateText": "17-07-2025",
+    "startTimeText": "2:00 PM",
+    "endTimeText": "4:00 PM",
+    "durationText": "02:00 PM - 04:00 PM"
+  },
+  {
+    "title": "Cybersecurity Fundamentals",
+    "description": "This training program aims to empower participants with the foundational skills and knowledge necessary in the field of cybersecurity, and to understand its importance.\nIt focuses on reducing the risks of cyber threats to individuals and organizations, and how to avoid such threats by protecting personal or organizational data.",
+    "startDate": "2025-07-06T17:00:00+03:00",
+    "endDate": "2025-07-10T21:00:00+03:00",
+    "isRegistrationOpen": true,
+    "isRegistrationClosed": false,
+    "language": "en",
+    "video": "<div class=\"mx-auto relative w-full h-full !sm:h-[35rem]\" style=\"min-height:35vh !important; height:100%\"> <iframe src=\"https://player.vimeo.com/video/1013242135?title=0&amp;byline=0&amp;portrait=0&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479\" frameborder=\"0\" allow=\"autoplay; fullscreen; picture-in-picture; clipboard-write\" title=\"عام لبرامج الكبار\" style=\"position:absolute; top:0; left:0; width:100%; height:100%;\" ></iframe></div>",
+    "initiativeAgeName": "Adults",
+    "initiativeCategoryName": "Program",
+    "locationName": "Remote",
+    "initiativeScopeName": "Cybersecurity",
+    "goals": [
+      "Understand what cybersecurity is and why it matters",
+      "Build and promote cybersecurity awareness and culture among trainees",
+      "Identify and avoid potential cyber risks and threats",
+      "Understand how users are exploited to access sensitive data or systems",
+      "Learn employee responsibilities in protecting organizational information and systems",
+      "Get introduced to cybersecurity regulations from the National Cybersecurity Authority",
+      "Understand core encryption principles."
+    ],
+    "features": [
+      "Application-based learning methodology",
+      "Supportive and competitive learning environment."
+    ],
+    "requirements": [
+      "The applicant must be Saudi.",
+      "Own a personal laptop.",
+      "Bachelor's degree in a technical field."
+    ],
+    "faqs": {
+      "هل توجد شهادة بعد انتهاء المعسكر / البرنامج؟": "تقدم أكاديمية طويق معسكرات وبرامج بشهادات احترافية بالشراكة مع كبرى الجهات العالمية، بالإضافة إلى شهادات حضور لكافة المعسكرات والبرامج.\n",
+      "هل يتم إشعاري بالقبول؟": "يتم إشعارك بالقبول النهائي عبر البريد الإلكتروني قبل بدء المعسكر / البرنامج بفترة كافية.\n"
+    },
+    "initiativeProCertificate": null,
+    "slug": "ZM3l91Qq",
+    "registrationEndDate": "2025-06-29T12:00:00+03:00",
+    "minimumAge": 18,
+    "maximumAge": 100,
+    "locationText": "Remote",
+    "startDateText": "06-07-2025",
+    "endDateText": "10-07-2025",
+    "startTimeText": "5:00 PM",
+    "endTimeText": "9:00 PM",
+    "durationText": "05:00 PM - 09:00 PM"
+  },
+  {
+    "title": "Cybersecurity Defense L2 - SOC",
+    "description": "The Cybersecurity Defense track is designed to introduce the key domains required to detect and respond to cyber threats.\nIt provides trainees with essential knowledge and practical strategies for threat identification and incident response.",
+    "startDate": "2025-07-06T18:00:00+03:00",
+    "endDate": "2025-07-10T22:00:00+03:00",
+    "isRegistrationOpen": true,
+    "isRegistrationClosed": false,
+    "language": "en",
+    "video": "<div class=\"mx-auto relative w-full h-full !sm:h-[35rem]\" style=\"min-height:35vh !important; height:100%\"> <iframe src=\"https://player.vimeo.com/video/1013242135?title=0&amp;byline=0&amp;portrait=0&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479\" frameborder=\"0\" allow=\"autoplay; fullscreen; picture-in-picture; clipboard-write\" title=\"عام لبرامج الكبار\" style=\"position:absolute; top:0; left:0; width:100%; height:100%;\" ></iframe></div>",
+    "initiativeAgeName": "Adults",
+    "initiativeCategoryName": "Program",
+    "locationName": "Remote",
+    "initiativeScopeName": "Cybersecurity",
+    "goals": [
+      "Introduction to cybersecurity defense",
+      "Threat and vulnerability management",
+      "Security operations and monitoring",
+      "Incident response and digital forensics."
+    ],
+    "features": [
+      "Application-based learning methodology",
+      "Supportive and competitive learning environment."
+    ],
+    "requirements": [
+      "The applicant must be Saudi.",
+      "Own a personal laptop.",
+      "Bachelor's degree in a technical field."
+    ],
+    "faqs": {
+      "هل توجد شهادة بعد انتهاء المعسكر / البرنامج؟": "تقدم أكاديمية طويق معسكرات وبرامج بشهادات احترافية بالشراكة مع كبرى الجهات العالمية، بالإضافة إلى شهادات حضور لكافة المعسكرات والبرامج.\n",
+      "هل يتم إشعاري بالقبول؟": "يتم إشعارك بالقبول النهائي عبر البريد الإلكتروني قبل بدء المعسكر / البرنامج بفترة كافية."
+    },
+    "initiativeProCertificate": null,
+    "slug": "8WkbZkyb",
+    "registrationEndDate": "2025-06-29T12:00:00+03:00",
+    "minimumAge": 18,
+    "maximumAge": 100,
+    "locationText": "Remote",
+    "startDateText": "06-07-2025",
+    "endDateText": "10-07-2025",
+    "startTimeText": "6:00 PM",
+    "endTimeText": "10:00 PM",
+    "durationText": "06:00 PM - 10:00 PM"
+  },
+  {
+    "title": "Mastering Cybersecurity Governance, Risk, and Compliance (GRC",
+    "description": "This program offers comprehensive training to develop participants’ skills and capabilities in managing cybersecurity governance and risk.\nIt empowers organizations to maintain compliance and effectiveness based on market needs, while equipping participants to assess cyber risks and implement appropriate cybersecurity controls.",
+    "startDate": "2025-07-06T19:00:00+03:00",
+    "endDate": "2025-07-10T22:00:00+03:00",
+    "isRegistrationOpen": true,
+    "isRegistrationClosed": false,
+    "language": "en",
+    "video": "<div class=\"mx-auto relative w-full h-full !sm:h-[35rem]\" style=\"min-height:35vh !important; height:100%\"> <iframe src=\"https://player.vimeo.com/video/1013242135?title=0&byline=0&portrait=0&badge=0&autopause=0&player_id=0&app_id=58479\" frameborder=\"0\" allow=\"autoplay; fullscreen; picture-in-picture; clipboard-write\" title=\"عام لبرامج الكبار\" style=\"position:absolute; top:0; left:0; width:100%; height:100%;\" ></iframe></div>",
+    "initiativeAgeName": "Adults",
+    "initiativeCategoryName": "Program",
+    "locationName": "Riyadh - Headquarters",
+    "initiativeScopeName": "Cybersecurity",
+    "goals": [
+      "Develop various cybersecurity governance, risk, and compliance documents efficiently",
+      "Develop and review cybersecurity controls and policies in line with international best practices",
+      "Conduct cybersecurity assessments aligned with global standards",
+      "Understand and link relevant cybersecurity legislation and policies across global, GCC, and Saudi contexts."
+    ],
+    "features": [
+      "Supportive and competitive learning environment",
+      "Program delivered in Arabic",
+      "Discussion of real business cases from the Saudi, Gulf, and global markets",
+      "Link scientific knowledge and practical capabilities through case studies from companies in Saudi Arabia",
+      "Development of policies, controls, and cyber risk assessments for real-life scenarios."
+    ],
+    "requirements": [
+      "The applicant must be Saudi.",
+      "Own a personal laptop.",
+      "Bachelor's degree in a technical field."
+    ],
+    "faqs": {
+      "هل توجد شهادة بعد انتهاء المعسكر / البرنامج؟": "تقدم أكاديمية طويق معسكرات وبرامج بشهادات احترافية بالشراكة مع كبرى الجهات العالمية، بالإضافة إلى شهادات حضور لكافة المعسكرات والبرامج.",
+      "هل يتم إشعاري بالقبول؟": "يتم إشعارك بالقبول النهائي عبر البريد الإلكتروني قبل بدء المعسكر / البرنامج بفترة كافية.\n"
+    },
+    "initiativeProCertificate": null,
+    "slug": "3Mz8Xzgw",
+    "registrationEndDate": "2025-06-29T12:00:00+03:00",
+    "minimumAge": 18,
+    "maximumAge": 100,
+    "locationText": "Riyadh - Headquarters",
+    "startDateText": "06-07-2025",
+    "endDateText": "10-07-2025",
+    "startTimeText": "7:00 PM",
+    "endTimeText": "10:00 PM",
+    "durationText": "07:00 PM - 10:00 PM"
+  },
+  {
+    "title": "Integrated Information Systems Audit",
+    "description": "This program equips trainees with the knowledge and skills required to evaluate and verify the effectiveness of information systems and IT infrastructures in organizations.\nIt also ensures that the auditing practices used in information systems align with international standards.",
+    "startDate": "2025-07-13T17:00:00+03:00",
+    "endDate": "2025-07-17T21:00:00+03:00",
+    "isRegistrationOpen": true,
+    "isRegistrationClosed": false,
+    "language": "en",
+    "video": "<div class=\"mx-auto relative w-full h-full !sm:h-[35rem]\" style=\"min-height:35vh !important; height:100%\"> <iframe src=\"https://player.vimeo.com/video/1013242135?title=0&byline=0&portrait=0&badge=0&autopause=0&player_id=0&app_id=58479\" frameborder=\"0\" allow=\"autoplay; fullscreen; picture-in-picture; clipboard-write\" title=\"عام لبرامج الكبار\" style=\"position:absolute; top:0; left:0; width:100%; height:100%;\" ></iframe></div>",
+    "initiativeAgeName": "Adults",
+    "initiativeCategoryName": "Program",
+    "locationName": "Riyadh - Headquarters",
+    "initiativeScopeName": "Cybersecurity",
+    "goals": [
+      "Evaluate IT governance and management: Learn how to ensure IT is well-managed and aligned with business strategy",
+      "Audit information systems: Study effective auditing techniques for IT systems, including controls to ensure efficiency and compliance",
+      "Protect information: Understand how to secure information and systems against external and internal threats",
+      "Manage IT services: Evaluate technical service delivery to ensure quality support and proper issue resolution",
+      "Assess application and IT system security: Learn to verify the integrity and safety of applications and systems",
+      "Manage IT risks: Ensure the organization has effective strategies to handle IT-related risks",
+      "Analyze IT environment: Develop skills to assess the tech landscape and support auditing decisions."
+    ],
+    "features": [
+      "Globally recognized: CISA is one of the most respected certifications in IT auditing and cybersecurity, considered a global standard by international organizations",
+      "Professional competency boost: CISA provides deep knowledge on evaluating IT systems including security, management, and risks, enhancing problem-solving capabilities",
+      "Audit skills focus: The course strengthens IT audit skills across governance, cybersecurity, and risk management",
+      "Global compliance: Helps participants understand and apply best practices such as COBIT and ISO/IEC 27001, ensuring alignment with global standards",
+      "Career opportunities: Holding a CISA certification opens doors to careers in IT auditing, information security, risk management, and compliance",
+      "Enhanced security and compliance: Learn how to assess security control effectiveness to protect data and reduce risks",
+      "Comprehensive risk analysis: Understand how to evaluate and manage IT-related risks for system security",
+      "Continuous assessment: Includes ongoing analysis of IT audit tools and techniques for accurate and data-driven reporting",
+      "IT management expertise: Develop knowledge in areas like project management, data governance, and network security",
+      "Critical thinking focus: Improve analytical and critical thinking skills to assess IT environments and identify system design flaws",
+      "Flexible learning options."
+    ],
+    "requirements": [
+      "The applicant must be Saudi.",
+      "Own a personal laptop.",
+      "Bachelor's degree in a technical field.",
+      "Practical knowledge of IT auditing.",
+      "Practical knowledge of information security and protection.",
+      "Practical knowledge of risk management.",
+      "Practical knowledge of IT governance.",
+      "Practical knowledge of compliance evaluation."
+    ],
+    "faqs": {
+      "هل توجد شهادة بعد انتهاء البرنامج؟": "تقدم أكاديمية طويق معسكرات وبرامج بشهادات احترافية بالشراكة مع كبرى الجهات العالمية، بالإضافة إلى شهادات حضور لكافة المعسكرات والبرامج.",
+      "هل يتم إشعاري بالقبول؟": "يتم إشعارك بالقبول النهائي عبر البريد الإلكتروني قبل بدء البرنامج بفترة كافية."
+    },
+    "initiativeProCertificate": null,
+    "slug": "nPZm9ZXE",
+    "registrationEndDate": "2025-07-06T12:00:00+03:00",
+    "minimumAge": 18,
+    "maximumAge": 100,
+    "locationText": "Riyadh - Headquarters",
+    "startDateText": "13-07-2025",
+    "endDateText": "17-07-2025",
+    "startTimeText": "5:00 PM",
+    "endTimeText": "9:00 PM",
+    "durationText": "05:00 PM - 09:00 PM"
+  },
+  {
+    "title": "Data Analysis and Visualization Using Excel",
+    "description": "The program introduces tools and techniques used in data analysis, such as pivot tables, charts, filtering tools, and statistical analysis.\nIt includes hands-on exercises and interactive applications to reinforce understanding and practical skills. Participants will analyze real datasets and design professional visual reports that reflect insights and support decision-making.\n",
+    "startDate": "2025-07-20T14:00:00+03:00",
+    "endDate": "2025-07-24T16:00:00+03:00",
+    "isRegistrationOpen": true,
+    "isRegistrationClosed": false,
+    "language": "en",
+    "video": "<div class=\"mx-auto relative w-full h-full !sm:h-[35rem]\" style=\"min-height:35vh !important; height:100%\"> <iframe src=\"https://player.vimeo.com/video/1013242135?title=0&amp;byline=0&amp;portrait=0&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479\" frameborder=\"0\" allow=\"autoplay; fullscreen; picture-in-picture; clipboard-write\" title=\"عام لبرامج الكبار\" style=\"position:absolute; top:0; left:0; width:100%; height:100%;\" ></iframe></div>",
+    "initiativeAgeName": "Adults",
+    "initiativeCategoryName": "Program",
+    "locationName": "Remote",
+    "initiativeScopeName": "Data Science and Artificial Intelligence",
+    "goals": [
+      "Learn how to use Excel tools and techniques for data analysis and visualization",
+      "Create pivot tables, charts, and statistical reports",
+      "Apply statistical analysis techniques and interpret the results",
+      "Build clear and effective data visualizations",
+      "Strengthen practical data analysis skills applicable to different work contexts."
+    ],
+    "features": [
+      "Application-based learning methodology",
+      "Supportive and competitive learning environment."
+    ],
+    "requirements": [
+      "The applicant must be Saudi.",
+      "Own a personal laptop.",
+      "Student major must be in a technical field."
+    ],
+    "faqs": {
+      "هل توجد شهادة بعد انتهاء البرنامج؟": "تقدم أكاديمية طويق معسكرات وبرامج بشهادات احترافية بالشراكة مع كبرى الجهات العالمية، بالإضافة إلى شهادات حضور لكافة المعسكرات والبرامج.",
+      "هل يتم إشعاري بالقبول؟": "يتم إشعارك بالقبول النهائي عبر البريد الإلكتروني قبل بدء البرنامج بفترة كافية.\n"
+    },
+    "initiativeProCertificate": null,
+    "slug": "0PnxBpAo",
+    "registrationEndDate": "2025-07-13T12:00:00+03:00",
+    "minimumAge": 18,
+    "maximumAge": 100,
+    "locationText": "Remote",
+    "startDateText": "20-07-2025",
+    "endDateText": "24-07-2025",
+    "startTimeText": "2:00 PM",
+    "endTimeText": "4:00 PM",
+    "durationText": "02:00 PM - 04:00 PM"
+  },
+  {
+    "title": "Network+ Fundamentals of Network Science",
+    "description": "The Network+ Fundamentals program is designed to establish a solid foundation in network science.\nIt prepares trainees for the CompTIA Network+ certification, which qualifies them to enter the Saudi job market in the networking field.",
+    "startDate": "2025-07-20T17:00:00+03:00",
+    "endDate": "2025-07-24T21:00:00+03:00",
+    "isRegistrationOpen": true,
+    "isRegistrationClosed": false,
+    "language": "en",
+    "video": "<div class=\"mx-auto relative w-full h-full !sm:h-[35rem]\" style=\"min-height:35vh !important; height:100%\"> <iframe src=\"https://player.vimeo.com/video/1013242135?title=0&amp;byline=0&amp;portrait=0&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479\" frameborder=\"0\" allow=\"autoplay; fullscreen; picture-in-picture; clipboard-write\" title=\"عام لبرامج الكبار\" style=\"position:absolute; top:0; left:0; width:100%; height:100%;\" ></iframe></div>",
+    "initiativeAgeName": "Adults",
+    "initiativeCategoryName": "Program",
+    "locationName": "Riyadh - Headquarters",
+    "initiativeScopeName": "Network Systems\n\n",
+    "goals": [
+      "Monitor and manage network performance",
+      "Understand networking fundamentals",
+      "Identify and describe network protocols",
+      "Understand characteristics of network operating systems",
+      "Learn the OSI model and related network layers",
+      "Understand physical layers and network components",
+      "Learn how data travels across networks",
+      "Understand remote network access."
+    ],
+    "features": [
+      "Explain the purpose of network protocols and describe network types",
+      "Identify features of different network operating systems and clients",
+      "Describe OSI-based networks and their components",
+      "Understand TCP/IP addressing and usage."
+    ],
+    "requirements": [
+      "The applicant must be Saudi.",
+      "Own a personal laptop.",
+      "Technical background."
+    ],
+    "faqs": {
+      " هل يتم إشعاري بالقبول؟": "\nيتم إشعارك بالقبول النهائي عبر البريد الإلكتروني قبل بدء المعسكر / البرنامج بفترة كافية.\n",
+      "هل توجد شهادة بعد انتهاء المعسكر / البرنامج؟": "تقدم أكاديمية طويق معسكرات وبرامج بشهادات احترافية بالشراكة مع كبرى الجهات العالمية، بالإضافة إلى شهادات حضور لكافة المعسكرات والبرامج\n"
+    },
+    "initiativeProCertificate": null,
+    "slug": "6abXDbNr",
+    "registrationEndDate": "2025-07-13T12:00:00+03:00",
+    "minimumAge": 18,
+    "maximumAge": 100,
+    "locationText": "Riyadh - Headquarters",
+    "startDateText": "20-07-2025",
+    "endDateText": "24-07-2025",
+    "startTimeText": "5:00 PM",
+    "endTimeText": "9:00 PM",
+    "durationText": "05:00 PM - 09:00 PM"
+  },
+  {
+    "title": "Cybersecurity Analyst CySA+",
+    "description": "The CySA+ program provides the core skills security analysts need to understand and assess cybersecurity, manage incidents, and strengthen organizational security.\nParticipants will be trained to handle security threats effectively and apply practical skills through real-world scenarios.",
+    "startDate": "2025-08-17T17:00:00+03:00",
+    "endDate": "2025-08-21T21:00:00+03:00",
+    "isRegistrationOpen": true,
+    "isRegistrationClosed": false,
+    "language": "en",
+    "video": "<div class=\"mx-auto relative w-full h-full !sm:h-[35rem]\" style=\"min-height:35vh !important; height:100%\"> <iframe src=\"https://player.vimeo.com/video/1013242135?title=0&byline=0&portrait=0&badge=0&autopause=0&player_id=0&app_id=58479\" frameborder=\"0\" allow=\"autoplay; fullscreen; picture-in-picture; clipboard-write\" title=\"عام لبرامج الكبار\" style=\"position:absolute; top:0; left:0; width:100%; height:100%;\" ></iframe></div>",
+    "initiativeAgeName": "Adults",
+    "initiativeCategoryName": "Program",
+    "locationName": "Riyadh - Headquarters",
+    "initiativeScopeName": "Cybersecurity",
+    "goals": [
+      "Grasp core concepts of security analysis for organizational systems",
+      "Learn techniques to analyze and classify vulnerabilities in technical environments",
+      "Use approved sources to write and assess security reports",
+      "Master tools and methods used in security operations centers for analysis."
+    ],
+    "features": [
+      "Application-based learning methodology",
+      "Supportive and competitive learning environment."
+    ],
+    "requirements": [
+      "The applicant must be Saudi (male or female).",
+      "Bachelor's degree in a technical field.",
+      "Own a personal laptop."
+    ],
+    "faqs": {
+      "هل توجد شهادة بعد انتهاء المعسكر / البرنامج؟ ": "تقدم أكاديمية طويق معسكرات وبرامج بشهادات احترافية بالشراكة مع كبرى الجهات العالمية، بالإضافة إلى شهادات حضور لكافة المعسكرات والبرامج.",
+      "هل يتم إشعاري بالقبول؟": "يتم إشعارك بالقبول النهائي عبر البريد الإلكتروني قبل بدء المعسكر / البرنامج بفترة كافية.\n"
+    },
+    "initiativeProCertificate": null,
+    "slug": "NwAl1Wj0",
+    "registrationEndDate": "2025-08-10T12:00:00+03:00",
+    "minimumAge": 18,
+    "maximumAge": 100,
+    "locationText": "Riyadh - Headquarters",
+    "startDateText": "17-08-2025",
+    "endDateText": "21-08-2025",
+    "startTimeText": "5:00 PM",
+    "endTimeText": "9:00 PM",
+    "durationText": "05:00 PM - 09:00 PM"
+  },
+  {
+    "title": "Data Science and Machine Learning Using Python",
+    "description": "This program introduces the fields of data science and machine learning to beginner-level tech professionals.\nIt provides a strong, practical guide to using Python for data analysis, including how to create visualizations using powerful machine learning algorithms. The program also explains key libraries in this field and how to use them to build compelling visual insights, along with hands-on applications of machine learning in Python.",
+    "startDate": "2025-11-30T14:00:00+03:00",
+    "endDate": "2025-12-04T16:00:00+03:00",
+    "isRegistrationOpen": true,
+    "isRegistrationClosed": false,
+    "language": "en",
+    "video": "<div class=\"mx-auto relative w-full h-full !sm:h-[35rem]\" style=\"min-height:35vh !important; height:100%\"> <iframe src=\"https://player.vimeo.com/video/1013242135?title=0&amp;byline=0&amp;portrait=0&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479\" frameborder=\"0\" allow=\"autoplay; fullscreen; picture-in-picture; clipboard-write\" title=\"عام لبرامج الكبار\" style=\"position:absolute; top:0; left:0; width:100%; height:100%;\" ></iframe></div>",
+    "initiativeAgeName": "Adults",
+    "initiativeCategoryName": "Program",
+    "locationName": "Remote",
+    "initiativeScopeName": "Data Science and Artificial Intelligence",
+    "goals": [
+      "Understand the field of data science and its impact",
+      "Learn and use key libraries in data science",
+      "Apply practical projects to reinforce real-world understanding of core concepts."
+    ],
+    "features": [
+      "Application-based learning methodology",
+      "Supportive and competitive learning environment."
+    ],
+    "requirements": [
+      "The applicant must be Saudi.",
+      "Own a personal laptop.",
+      "Bachelor's degree in a technical field."
+    ],
+    "faqs": {
+      "هل توجد شهادة بعد انتهاء المعسكر / البرنامج؟": "تقدم أكاديمية طويق معسكرات وبرامج بشهادات احترافية بالشراكة مع كبرى الجهات العالمية، بالإضافة إلى شهادات حضور لكافة المعسكرات والبرامج.\n",
+      "هل يتم إشعاري بالقبول؟": "يتم إشعارك بالقبول النهائي عبر البريد الإلكتروني قبل بدء المعسكر / البرنامج بفترة كافية."
+    },
+    "initiativeProCertificate": null,
+    "slug": "y3x7wxBY",
+    "registrationEndDate": "2025-11-23T12:00:00+03:00",
+    "minimumAge": 18,
+    "maximumAge": 100,
+    "locationText": "Remote",
+    "startDateText": "30-11-2025",
+    "endDateText": "04-12-2025",
+    "startTimeText": "2:00 PM",
+    "endTimeText": "4:00 PM",
+    "durationText": "02:00 PM - 04:00 PM"
+  },
+  {
+    "title": "SQL Database Application Using Python",
+    "description": "This program focuses on learning database development using Python and SQL.\nIt covers essential concepts such as designing and creating databases, executing operations, and using SQL to query databases and extract information — all within an applied learning environment supervised by a specialized instructional team.\n\n\n",
+    "startDate": "2025-12-07T14:00:00+03:00",
+    "endDate": "2025-12-11T16:00:00+03:00",
+    "isRegistrationOpen": true,
+    "isRegistrationClosed": false,
+    "language": "en",
+    "video": "<div class=\"mx-auto relative w-full h-full !sm:h-[35rem]\" style=\"min-height:35vh !important; height:100%\"> <iframe src=\"https://player.vimeo.com/video/1013242135?title=0&amp;byline=0&amp;portrait=0&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479\" frameborder=\"0\" allow=\"autoplay; fullscreen; picture-in-picture; clipboard-write\" title=\"عام لبرامج الكبار\" style=\"position:absolute; top:0; left:0; width:100%; height:100%;\" ></iframe></div>",
+    "initiativeAgeName": "Adults",
+    "initiativeCategoryName": "Program",
+    "locationName": "Remote",
+    "initiativeScopeName": "Data Science and Artificial Intelligence",
+    "goals": [
+      "Acquire knowledge and skills to implement databases",
+      "Build databases using Python and SQL",
+      "Perform basic operations such as insert, update, and delete",
+      "Use SQL to query databases and extract information",
+      "Strengthen database and data analysis skills",
+      "Apply these skills in real-world projects."
+    ],
+    "features": [
+      "Application-based learning methodology",
+      "Supportive and competitive learning environment."
+    ],
+    "requirements": [
+      "The applicant must be Saudi.",
+      "Own a personal laptop.",
+      "Bachelor's degree in a technical field."
+    ],
+    "faqs": {
+      "هل توجد شهادة بعد انتهاء البرنامج؟": "تقدم أكاديمية طويق معسكرات وبرامج بشهادات احترافية بالشراكة مع كبرى الجهات العالمية، بالإضافة إلى شهادات حضور لكافة المعسكرات والبرامج.\n",
+      "هل يتم إشعاري بالقبول؟": "يتم إشعارك بالقبول النهائي عبر البريد الإلكتروني قبل بدء البرنامج بفترة كافية.\n"
+    },
+    "initiativeProCertificate": null,
+    "slug": "b7MaX281",
+    "registrationEndDate": "2025-11-30T12:00:00+03:00",
+    "minimumAge": 18,
+    "maximumAge": 100,
+    "locationText": "Remote",
+    "startDateText": "07-12-2025",
+    "endDateText": "11-12-2025",
+    "startTimeText": "2:00 PM",
+    "endTimeText": "4:00 PM",
+    "durationText": "02:00 PM - 04:00 PM"
+  },
+  {
+    "title": "Cloud Solutions Engineering Using Google Compute Engine",
+    "description": "The program introduces the flexible cloud infrastructure and core services of Google Cloud, with a focus on Compute Engine.\nParticipants will learn how to explore and deploy cloud solution components, including networks, systems, and application services. The program also covers practical implementation of hybrid networks, encryption key management, access control and security mechanisms, billing system understanding, resource monitoring, and performance optimization.\n",
+    "startDate": "2025-12-21T10:00:00+03:00",
+    "endDate": "2026-01-01T15:00:00+03:00",
+    "isRegistrationOpen": true,
+    "isRegistrationClosed": false,
+    "language": "en",
+    "video": "<div class=\"mx-auto relative w-full h-full !sm:h-[35rem]\" style=\"min-height:35vh !important; height:100%\"> <iframe src=\"https://player.vimeo.com/video/1013242135?title=0&amp;byline=0&amp;portrait=0&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479\" frameborder=\"0\" allow=\"autoplay; fullscreen; picture-in-picture; clipboard-write\" title=\"عام لبرامج الكبار\" style=\"position:absolute; top:0; left:0; width:100%; height:100%;\" ></iframe></div>",
+    "initiativeAgeName": "Adults",
+    "initiativeCategoryName": "Program",
+    "locationName": "Riyadh - Headquarters",
+    "initiativeScopeName": "Cloud Computing",
+    "goals": [
+      "Gain comprehensive understanding of cloud computing concepts and their business value",
+      "Understand the value Google Cloud offers to enterprises and developers",
+      "Interact with Google Cloud and use the Cloud Shell console",
+      "Create and use storage services like Cloud Storage and Cloud SQL",
+      "Deploy solutions using Google Cloud Marketplace",
+      "Implement private networking, security, and access control with IAM",
+      "Manage resources with labels and monitor billing using BigQuery",
+      "Configure high-availability VPN and autoscaling",
+      "Automate infrastructure with Terraform",
+      "Use managed services for data processing in Google Cloud."
+    ],
+    "features": [
+      "Application-based learning methodology",
+      "Supportive and competitive learning environment",
+      "Hands-on training with Google Cloud Console and Cloud Shell for managing resources and deploying apps",
+      "Certified instructor guidance to ensure comprehension of key concepts",
+      "Prepares participants for Google Cloud certifications such as Associate Cloud Engineer and supports real-world application of skills."
+    ],
+    "requirements": [
+      "The applicant must be Saudi.",
+      "Own a personal laptop.",
+      "Bachelor's degree in a technical field.",
+      "Commitment to attend all training sessions.",
+      "Good level of English.",
+      "Basic IT background (e.g., networks, operating systems, databases) and willingness to do hands-on learning and use technical tools."
+    ],
+    "faqs": {
+      "هل توجد شهادة بعد انتهاء البرنامج؟": "تقدم أكاديمية طويق معسكرات وبرامج بشهادات احترافية بالشراكة مع كبرى الجهات العالمية، بالإضافة إلى شهادات حضور لكافة المعسكرات والبرامج.",
+      "هل يتم إشعاري بالقبول؟": "يتم إشعارك بالقبول النهائي عبر البريد الإلكتروني قبل بدء البرنامج بفترة كافية."
+    },
+    "initiativeProCertificate": null,
+    "slug": "2MZ7680a",
+    "registrationEndDate": "2025-12-14T12:00:00+03:00",
+    "minimumAge": 18,
+    "maximumAge": 100,
+    "locationText": "Riyadh - Headquarters",
+    "startDateText": "21-12-2025",
+    "endDateText": "01-01-2026",
+    "startTimeText": "10:00 AM",
+    "endTimeText": "3:00 PM",
+    "durationText": "10:00 AM - 03:00 PM"
+  }
+]
