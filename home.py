@@ -1,5 +1,6 @@
 import streamlit as st
-from PIL import Image
+import pandas as pd
+from io import StringIO
 
 # Page config
 st.set_page_config(layout="wide")
@@ -141,7 +142,7 @@ with col2:
     st.image("images/T2.png")
     st.markdown(f"""
             <div class="course-title">⚙️ كيف يعمل؟</div>
-            <div class="course-details">يقرأ "مسار" ملفك الشخصي أو سيرتك الذاتية، ويفهم مهاراتك الحالية واهتماماتك، ثم يقارنها بمحتوى الدورات المتاحة في المنصة. من خلال تقنيات متقدمة في معالجة اللغة وتحليل البيانات، يقترح دورات ملائمة تمامًا، بل ويولّد اختبارًا تفاعليًا سريعًا ليؤكد أنك على الطريق الصحيح.
+            <div class="course-details">يقرأ "مسار" ملفك الشخصي أو سيرتك الذاتية، ويفهم مهاراتك الحالية واهتماماتك، ثم يقارنها بمحتوى الدورات المتاحة في المنصة. من خلال تقنيات متقدمة في معالجة اللغة وتحليل البيانات، يقترح دورات ملائمة تمامًا.
             </div>
     """, unsafe_allow_html=True)
 
@@ -156,8 +157,10 @@ with col3:
 # spacer
 st.markdown('<div style="height: 80px; "></div>', unsafe_allow_html=True) 
 
-# Enroll button
-# st.button("اقترح لي", key=None, help=None, on_click=None, args=None, kwargs=None, type="secondary", icon=None, disabled=False, use_container_width=False)
+uploaded_file = st.file_uploader("اختر ملف السيرة الذاتية", type=["txt", "pdf"], label_visibility="visible")
+if uploaded_file is not None:
+    st.success("تم تحميل الملف بنجاح!")
+
 
 left, middle, right = st.columns(3)
 if middle.button("اقترح لي", icon=None, type="secondary", use_container_width=True):
