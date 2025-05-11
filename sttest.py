@@ -609,6 +609,7 @@ def best_courses(query):
     print(f"\n\n===== Searching for: '{query}' =====")
     results = search_similar_bootcamps(query, limit=5)
     print(results_json(results))
+    return results_json(results)
 
 
 cv="""Name: Ameen Alrashid
@@ -666,7 +667,204 @@ Interests:
 
 References:
 Available upon request"""
-best_courses(cv)
+
+
+
+
+
+
+
+
+
+
+
+
+
+import streamlit as st
+from datetime import datetime
+
+from datetime import datetime
+from dateutil.parser import parse  # Handles timezones and complex formats
+
+def calculate_duration(start_date_str, end_date_str):
+    # Default if dates are missing/invalid
+    if not start_date_str or not end_date_str or start_date_str == "N/A" or end_date_str == "N/A":
+        return "غير محدد"
+    
+    try:
+        # Parse ISO 8601 dates with timezones (e.g., "2025-06-15T10:00:00+03:00")
+        start_date = parse(start_date_str)
+        end_date = parse(end_date_str)
+        
+        delta = end_date - start_date
+        days = delta.days
+        
+        if days < 0:
+            return "تاريخ غير صحيح"
+        
+        # Weeks
+        if days <= 6:
+            return "أسبوع"
+        elif 7 <= days <= 13:
+            return "أسبوع"
+        elif 14 <= days <= 20:
+            return "أسبوعين"
+        elif 21 <= days <= 27:
+            return "٣ أسابيع"
+        
+        # Months (approximate)
+        months = round(days / 30)  # 30 days ≈ 1 month
+        
+        if months == 1:
+            return "شهر"
+        elif months == 2:
+            return "شهرين"
+        elif 3 <= months <= 11:
+            # Convert Western numerals to Arabic (e.g., 3 → ٣)
+            arabic_nums = str(months).translate(str.maketrans('0123456789', '٠١٢٣٤٥٦٧٨٩'))
+            return f"{arabic_nums} شهور"
+        else:
+            return "سنة"  # 12+ months
+    
+    except (ValueError, TypeError):
+        return "تنسيق التاريخ غير صحيح"
+    
+
+def render_course_card_ar(course):
+    title = course.get("title", "—")
+    image_url = "https://via.placeholder.com/400x200.png?text=Course+Image"
+    audience = course.get("initiativeAgeName", "كبار")
+    type_ = course.get("initiativeCategoryName", "-")
+
+    if course.get("isRegistrationOpen", "N/A") == True:
+        status = "متاح التسجيل"
+    else:
+        status = "مغلق"
+
+    start_date_str = course.get("startDate", "-")
+
+    if start_date_str != "-":
+        dt = datetime.fromisoformat(start_date_str)
+        formatted_date = f"{dt.year}-{dt.month}-{dt.day}"
+    else:
+        formatted_date = "-"
+    end_date = course.get("endDate", "N/A")  # Make sure to get endDate from course
+
+    # Calculate duration properly
+    duration = calculate_duration(course.get("startDate"), course.get("endDate"))
+
+    url = course.get("URL", "#")
+
+
+    html = f"""
+    <div style="width: 100%; border-radius: 20px; overflow: hidden; border: 1px solid #eee;
+                background-color: #fff; box-shadow: 0 4px 6px rgba(0,0,0,0.1); height: 100%;">
+        <a href="{url}" target="_blank" style="text-decoration: none; color: inherit;">
+            <img src="{image_url}" style="width: 100%; height: 170px; object-fit: cover;" />
+            <div style="padding: 15px; direction: rtl;">
+                <div style="margin-bottom: 8px;">
+                    <span style="background-color: #fef3c7; color: #b45309; padding: 4px 10px; border-radius: 999px; font-size: 12px; margin-left: 5px;">{type_}</span>
+                    <span style="background-color: #e0f2fe; color: #0369a1; padding: 4px 10px; border-radius: 999px; font-size: 12px; margin-left: 5px;">{audience}</span>
+                    <span style="color: green; font-size: 13px;">● {status}</span>
+                </div>
+                <h4 style="margin: 0 0 10px 0; font-weight: 600;">{title}</h4>
+                <div style="font-size: 13px; color: #6b7280;">
+                    يبدأ من <strong>{formatted_date}</strong> — المدة <strong>{duration}</strong>
+                </div>
+            </div>
+        </a>
+    </div>
+    """
+    return html
+
+# Sample courses
+courses = best_courses(cv)
+
+# Add full-width layout CSS first
+st.markdown("""
+<style>
+    /* Make Streamlit use full width */
+    .block-container {
+        max-width: 100% !important;
+        padding-top: 1rem;
+        padding-right: 1rem;
+        padding-left: 1rem;
+        padding-bottom: 1rem;
+    }
+    /* Make the header also use full width */
+    header {
+        max-width: 100% !important;
+    }
+    /* Fix content areas */
+    .css-18e3th9, .css-1d391kg {
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+    /* Add some space between columns */
+    .stColumn > div {
+        padding: 0 5px;
+    }
+    /* Add vertical space between cards */
+    .course-card {
+        margin-bottom: 20px;
+        display: block;
+    }
+    /* Set background and text direction */
+    .main {
+        background-color: #f9fafb;
+        direction: rtl;
+    }
+</style>
+""", unsafe_allow_html=True)
+
+# Page title
+st.title("الدورات المتاحة")
+
+# Create three columns
+col1, col2, col3 = st.columns([1, 1, 1])
+
+# Initialize empty content for each column
+col1_content = ""
+col2_content = ""
+col3_content = ""
+
+# Add course cards to different columns in a loop
+for i, course in enumerate(courses):
+    course_html = f"""
+    <div class="course-card" style="margin-bottom: 20px;">
+        {render_course_card_ar(course)}
+    </div>
+    """
+    
+    # Determine which column to use based on index
+    if i % 3 == 0:
+        col1_content += course_html
+    elif i % 3 == 1:
+        col2_content += course_html
+    else:
+        col3_content += course_html
+
+# Display the content in each column
+with col1:
+    st.markdown(col1_content, unsafe_allow_html=True)
+    
+with col2:
+    st.markdown(col2_content, unsafe_allow_html=True)
+    
+with col3:
+    st.markdown(col3_content, unsafe_allow_html=True)
+
+
+
+
+
+
+
+
+
+
+
+
 client.close()  # Properly close connection
 # Close the connection
 conn.close()
