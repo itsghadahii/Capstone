@@ -215,13 +215,25 @@
 #             """, unsafe_allow_html=True)
 
 
+
 import streamlit as st
 from PIL import Image
+#import os
+#from dotenv import load_dotenv
+
+# Required fix for protobuf
+#os.environ["PROTOCOL_BUFFERS_PYTHON_IMPLEMENTATION"] = "python"
+
+# Load .env keys (OpenAI & Weaviate)
+#load_dotenv()
+
+#from sttest import best_courses, render_course_card_ar
+
+
 
 # --- Page Setup ---
 st.set_page_config(layout="wide", page_title="اقتراح مسارات")
 
-#GHada 
 
 # Top navigation bar
 st.markdown("""
@@ -366,7 +378,6 @@ for i, (label, img_url) in enumerate(categories):
 
 
 # --- Recommendation Dropdown & Box Section ---
-# --- Recommendation Dropdown & Box Section ---
 st.markdown("""
     <style>
         .dropdown-container {
@@ -426,12 +437,15 @@ st.markdown("""
 
 # --- Dropdown in RTL container ---
 # --- Dropdown aligned to right using columns ---
+
 col1, col2, col3 = st.columns([6, 2, 2])
 with col3:
 
     st.markdown('<p style="font-size:20px; color:#2F195F; font-weight:bold; text-align:right;">اختر نوع الاقتراح</p>', unsafe_allow_html=True)
     option = st.selectbox("", ["اختر", "طور مهاراتك في مجالك", "غير مسارك"])
-    
+
+
+
 
 if option and option != "اختر":
     st.markdown(f"""
@@ -442,3 +456,57 @@ if option and option != "اختر":
             <div class='recommend-item'>&nbsp;</div>
         </div>
     """, unsafe_allow_html=True)
+
+
+
+# Dropdown my 
+# with st.container():
+#     st.markdown('<div class="dropdown-container"><p>اختر نوع الاقتراح</p>', unsafe_allow_html=True)
+#     option = st.selectbox("", ["اختر", "طور مهاراتك في مجالك", "غير مسارك"])
+#     st.markdown("</div>", unsafe_allow_html=True)
+
+# # Show recommendations if option selected
+# if option != "اختر":
+#     st.markdown(f"""
+#         <div class='recommend-box-single'>
+#             <div class='recommend-title'>{option}</div>
+#     """, unsafe_allow_html=True)
+
+#     # Static query for demo (you can make this dynamic)
+#     query_text = "الذكاء الاصطناعي" if option == "غير مسارك" else "تحليل البيانات"
+
+#     try:
+#         recommendations = best_courses(query_text)
+#         for rec in recommendations:
+#             st.markdown(render_course_card_ar(rec), unsafe_allow_html=True)
+#     except Exception as e:
+#         st.error(f" خطأ أثناء جلب التوصيات: {e}")
+
+#     st.markdown("</div>", unsafe_allow_html=True)
+
+
+# Dropdown
+# col1, col2, col3 = st.columns([6, 2, 2])
+# with col3:
+#     st.markdown('<p style="font-size:20px; color:#2F195F; font-weight:bold; text-align:right;">اختر نوع الاقتراح</p>', unsafe_allow_html=True)
+#     option = st.selectbox("", ["اختر", "طور مهاراتك في مجالك", "غير مسارك"])
+
+# # Render courses if selected
+# if option != "اختر":
+#     courses = best_courses("""Your CV text here""")  
+
+#     col1, col2, col3 = st.columns([1, 1, 1])
+#     col1_content = col2_content = col3_content = ""
+
+#     for i, course in enumerate(courses):
+#         card = f"""<div class="course-card">{render_course_card_ar(course)}</div>"""
+#         if i % 3 == 0:
+#             col1_content += card
+#         elif i % 3 == 1:
+#             col2_content += card
+#         else:
+#             col3_content += card
+
+#     with col1: st.markdown(col1_content, unsafe_allow_html=True)
+#     with col2: st.markdown(col2_content, unsafe_allow_html=True)
+#     with col3: st.markdown(col3_content, unsafe_allow_html=True)
