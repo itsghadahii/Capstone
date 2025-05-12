@@ -157,11 +157,16 @@ with col3:
 # spacer
 st.markdown('<div style="height: 80px; "></div>', unsafe_allow_html=True) 
 
-uploaded_file = st.file_uploader("اختر ملف السيرة الذاتية", type=["txt", "pdf"], label_visibility="visible")
-if uploaded_file is not None:
-    st.success("تم تحميل الملف بنجاح!")
+# uploaded_file = st.file_uploader("اختر ملف السيرة الذاتية", type=["txt", "pdf"], label_visibility="visible")
+# if uploaded_file is not None:
+#     st.success("تم تحميل الملف بنجاح!")
 
 
 left, middle, right = st.columns(3)
-if middle.button("اقترح لي", icon=None, type="secondary", use_container_width=True):
-    middle.markdown("You clicked the button.")
+# if middle.button("اقترح لي", icon=None, type="secondary", use_container_width=True):
+#     st.switch_page("pages/app.py")
+
+# if middle.button("Home"):
+#     st.switch_page("home.py")
+if left.button("اقترح لي"):
+    st.switch_page("pages/app.py")
