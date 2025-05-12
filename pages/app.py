@@ -769,8 +769,7 @@ def render_course_card_ar(course):
     return html
 
 
-# Sample courses
-courses = best_courses(cv)
+
 
 import streamlit as st
 from PIL import Image
@@ -1046,6 +1045,8 @@ with col3:
 
     
 if option and option != "اختر":
+    # Sample courses
+    courses = best_courses(cv)
         
     
 
