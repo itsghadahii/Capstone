@@ -1,9 +1,13 @@
 import streamlit as st
 import pandas as pd
 from io import StringIO
+import base64
 
 # Page config
-st.set_page_config(layout="wide")
+st.set_page_config(layout="wide", page_title="مسار", initial_sidebar_state="collapsed")
+
+with open("images/masar.svg", "rb") as f:
+    masar_svg_base64 = base64.b64encode(f.read()).decode()
 
 # Header
 st.markdown("""
@@ -49,15 +53,16 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 # Top navigation bar
-st.markdown("""
+st.markdown(f"""
     <style>
-        .top-nav-wrapper {
+        .top-nav-wrapper {{
             display: flex;
             background-color: #f8f9ff;
             border-bottom: 1px solid #eee;
             border-radius: 20px;
-        }
-        .top-nav {
+            justify-content: center;
+        }}
+        .top-nav {{
             padding: 15px 30px;
             display: flex;
             justify-content: space-between;
@@ -65,46 +70,48 @@ st.markdown("""
             direction: rtl;
             width: 100%;
             max-width: 1100px;
-        }
-        .top-nav .nav-left {
+        }}
+        .top-nav .nav-left {{
             display: flex;
-            gap: 60px;
+            gap: 50px;
             font-weight: 600;
-            font-size: 15px;
-        }
-        .top-nav .nav-left div {
+            font-size: 14px;
+        }}
+        .top-nav .nav-left div {{
             cursor: pointer;
-        }
-        .top-nav .nav-left .active {
-            background-color: #6c47ff;
+        }}
+        .top-nav .nav-left .active {{
+            background-color: #5034b4;
             color: white;
             padding: 6px 14px;
             border-radius: 10px;
-        }
-        .top-nav .nav-right {
+        }}
+        .top-nav .nav-right {{
             display: flex;
             align-items: center;
             gap: 15px;
-        }
-        .top-nav .lang-select {
+        }}
+        .top-nav .lang-select {{
             background-color: #eee;
             padding: 6px 12px;
             border-radius: 8px;
             font-weight: bold;
-        }
-        .top-nav .login-btn {
+        }}
+        .top-nav .login-btn {{
             background-color: #6c47ff;
             color: white;
             padding: 8px 20px;
             border-radius: 10px;
             font-weight: bold;
-        }
+        }}
     </style>
 
     <div class="top-nav-wrapper">
         <div class="top-nav">
             <div class="nav-left">
-                <img src="https://tuwaiq.edu.sa/img/logo.svg" width="130" alt="Logo">
+                <img src="data:image/svg+xml;base64,{masar_svg_base64}" width="80" alt="Masar Logo">
+                <img src="https://tuwaiq.edu.sa/img/logo.svg" width="130" alt="Tuwaiq Logo">
+                <div class="active">الرئيسية</div>
                 <div>حول الأكاديمية</div>
                 <div>الأكاديميات التابعة</div>
                 <div>مركز الاختبارات</div>
@@ -115,11 +122,14 @@ st.markdown("""
     </div>
 """, unsafe_allow_html=True)
 
-
-st.markdown('<div style="height: 50px;"></div>', unsafe_allow_html=True)  # Spacer
+# spacer
+st.markdown('<div style="height: 50px; "></div>', unsafe_allow_html=True)
 
 # Title
 st.markdown('<div class="main-title">تعرف على خدمة مسار</div>', unsafe_allow_html=True)
+
+# spacer
+st.markdown('<div style="height: 30px; "></div>', unsafe_allow_html=True)
 
 # Load example images (replace with actual images or logos if available)
 lock_icon = "images/T1.png"
@@ -130,7 +140,6 @@ flutter_icon = "images/T1.png"
 col1, col2, col3 = st.columns(3)
 
 with col1:
-    # st.markdown('<div class="course-box">', unsafe_allow_html=True)
     st.image("images/T1.png")
     st.markdown(f"""
             <div class="course-title">🎯 لماذا "مسار"؟</div>
@@ -155,18 +164,38 @@ with col3:
     """, unsafe_allow_html=True)
 
 # spacer
-st.markdown('<div style="height: 80px; "></div>', unsafe_allow_html=True) 
+st.markdown('<div style="height: 60px; "></div>', unsafe_allow_html=True) 
 
-# uploaded_file = st.file_uploader("اختر ملف السيرة الذاتية", type=["txt", "pdf"], label_visibility="visible")
-# if uploaded_file is not None:
-#     st.success("تم تحميل الملف بنجاح!")
+# # Button to switch to the app page
+# left, middle, right = st.columns(3)
 
-
-left, middle, right = st.columns(3)
-# if middle.button("اقترح لي", icon=None, type="secondary", use_container_width=True):
+# if left.button("اقترح لي"):
 #     st.switch_page("pages/app.py")
 
-# if middle.button("Home"):
-#     st.switch_page("home.py")
-if left.button("اقترح لي"):
-    st.switch_page("pages/app.py")
+# Add custom CSS for the button
+st.markdown("""
+    <style>
+        div.stButton > button {
+            background-color: #5034b4;
+            color: white;
+            padding: 12px 50px;
+            font-size: 18px;
+            border: none;
+            border-radius: 12px;
+            cursor: pointer;
+            transition: background-color 0.3s, color 0.3s;
+        }
+        div.stButton > button:hover {
+            background-color: white;
+            color: #5034b4;
+        }
+    </style>
+""", unsafe_allow_html=True)
+
+# Use layout to center the button
+col1, col2, col3, col4, col5, col6, col7 = st.columns([1, 1, 1, 1, 1, 1, 1])
+with col4:
+    if st.button("اقترح لي"):
+        st.switch_page("pages/app.py")
+
+
