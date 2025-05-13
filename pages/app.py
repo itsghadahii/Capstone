@@ -2,7 +2,7 @@
 import json
 import weaviate
 from sentence_transformers import SentenceTransformer
-from langchain_huggingface import HuggingFaceEmbeddings  # Updated import
+from langchain.embeddings import HuggingFaceEmbeddings  # Updated import
 from uuid import uuid4
 import os
 from weaviate.collections.classes.config import DataType
