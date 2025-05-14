@@ -1,4 +1,3 @@
-# Capstone
 # مسار (Masar)
 
 ## Overview
@@ -18,15 +17,19 @@ Masar aims to empower individuals by mapping their competencies to relevant lear
 
 **Web Application:**  
 - **Streamlit** for building the interactive user interface.
+
 **Data Storage and Search:**  
 - **weaviate** as a vector database for semantic search and similarity matching.  
 - **sqlite3** for local database storage of resumes and user data.
+
 **Data Handling:**  
 - **json**, **csv**, and **collections.OrderedDict** for structured data management.  
 - **requests** and **aiohttp** for web scraping and HTTP requests.
+
 - **OCR CVs**:
 **Tesseract** OCR (via pytesseract) is used to extract text from scanned PDF pages and images.
 **PyMuPDF** (fitz) is used to read PDF files and render pages as images for OCR processing.
+
 **Natural Language Processing:**  
 - **sentence-transformers** and **langchain** for generating and handling text embeddings.  
 - **openai** for AI-powered recommendations and analysis.
