@@ -41,6 +41,7 @@ Masar aims to empower individuals by mapping their competencies to relevant lear
 ```
 project-root/
 │
+├── docs/                   # Contains Masar presentation, poster and blind-link QR
 ├── Jsons/                  # Contains JSON files for data retrieval
 ├── images/                 # UI images and other static assets
 ├── pages/                  # Source code for different app pages
