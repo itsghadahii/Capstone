@@ -764,6 +764,7 @@ def render_course_card_ar(course):
 # --- Page Setup ---
 st.set_page_config(layout="wide", page_title="اقتراح مسارات")
 
+st.markdown('<div style="height: 60px; "></div>', unsafe_allow_html=True) 
 
 # Top navigation bar
 st.markdown("""
@@ -990,11 +991,7 @@ with col2:
                     extracted_text = extract_text_from_resume(pdf_content)
                     cv= extracted_text
                     st.session_state.extracted_text = extracted_text
-
-                    if st.session_state.cache_hit:
-                        st.success('تم استخراج النص من الذاكرة المؤقتة!')
-                    else:
-                        st.success('تم استخراج النص بنجاح!')
+                    
                 except Exception as e:
                     st.error(f'حدث خطأ أثناء معالجة الملف: {str(e)}')
 
@@ -1044,73 +1041,52 @@ with col3:
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
     
-if option and option != "اختر":
-    # Sample courses
-    courses = best_courses(cv)
-        
-    
+# Check if an option is selected AND the CV is not uploaded
+if option != "اختر" and 'extracted_text' not in st.session_state:
+    st.markdown("""
+        <style>
+            .centered-warning {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                font-size: 18px;
+                color: #ff4b4b;
+                font-weight: bold;
+                text-align: center;
+                height: 50px;
+            }
+        </style>
+        <div class="centered-warning">يرجى رفع السيرة الذاتية أولاً قبل اختيار نوع الاقتراح.</div>
+    """, unsafe_allow_html=True)
+else:
+    if option and option != "اختر" and 'extracted_text' in st.session_state:
+        cv = st.session_state.extracted_text
+        courses = best_courses(cv)
 
+        col1, col2, col3 = st.columns([1, 1, 1])
+        col1_content = ""
+        col2_content = ""
+        col3_content = ""
 
+        for i, course in enumerate(courses):
+            course_html = f"""<div class="course-card" style="margin-bottom: 20px;">{render_course_card_ar(course)}</div>"""
+            
+            if i % 3 == 0:
+                col1_content += course_html
+            elif i % 3 == 1:
+                col2_content += course_html
+            else:
+                col3_content += course_html
 
-    # # Page title
-    # st.title("الدورات المتاحة")
+        with col1:
+            st.markdown(col1_content, unsafe_allow_html=True)
+        with col2:
+            st.markdown(col2_content, unsafe_allow_html=True)
+        with col3:
+            st.markdown(col3_content, unsafe_allow_html=True)
 
-    # Create three columns
-    col1, col2, col3 = st.columns([1, 1, 1])
-
-    # Initialize empty content for each column
-    col1_content = ""
-    col2_content = ""
-    col3_content = ""
-
-    # Add course cards to different columns in a loop
-    for i, course in enumerate(courses):
-        course_html = f"""<div class="course-card" style="margin-bottom: 20px;">{render_course_card_ar(course)}</div>"""
-        
-        # Determine which column to use based on index
-        if i % 3 == 0:
-            col1_content += course_html
-        elif i % 3 == 1:
-            col2_content += course_html
-        else:
-            col3_content += course_html
-
-    # Display the content in each column
-    with col1:
-        st.markdown(col1_content, unsafe_allow_html=True)
-        
-    with col2:
-        st.markdown(col2_content, unsafe_allow_html=True)
-        
-    with col3:
-        st.markdown(col3_content, unsafe_allow_html=True)
-
-
-
-
-
-
-
-
-
-
-
-
-    client.close()  # Properly close connection
-    # Close the connection
-    conn.close()
+        client.close()
+        conn.close()
 
 
