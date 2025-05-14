@@ -101,6 +101,10 @@ Integrate with Tuwaiq Academy live API.
 
 Expand to include job matching or internship suggestions.
 
+## Poster
+Link: https://n9.cl/tkqpq
+
+
 ## License
 
 All right to Masar team
