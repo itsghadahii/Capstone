@@ -29,6 +29,7 @@ weaviate_api_key = os.environ["WEAVIATE_API_KEY"]
 # COLLECTION_NAME = "Bootcamp_en"
 # COLLECTION_NAME = "Bootcamp"
 COLLECTION_NAME = "COMBINE_BP"
+# COLLECTION_NAME = "COMBINE_BP2"
 
 # 1. Connect to the database (creates one if it doesn't exist)
 conn = sqlite3.connect('resume_database.db')
@@ -467,7 +468,40 @@ def search_similar_bootcamps(query, limit=5):
         print(f"Error during search: {e}")
         return []
     
+from weaviate.classes.query import Filter
+
+def search_similar_bootcamps_other(query, field ,limit=5):
+    """
+    Search for bootcamps similar to the query.
     
+    Args:
+        query (str): The search query
+        limit (int): Number of results to return
+        
+    Returns:
+        list: List of similar bootcamps
+    """
+    # Generate query embedding
+    query_embedding = embedder.embed_query(query)
+    
+    try:
+        # Get the collection
+        bootcamp_collection = client.collections.get(COLLECTION_NAME)
+      # Perform vector search - use 'near_vector' instead of 'vector'
+        results = bootcamp_collection.query.hybrid(
+            query=query,
+            vector=query_embedding,  # Changed from 'vector' to 'near_vector'
+            limit=limit,
+            filters=Filter.by_property("initiativeScopeName_en").not_equal(field),
+            return_properties=["title","title_en","initiativeCategoryName","initiativeCategoryName_en","initiativeScopeName","initiativeScopeName_en" ,"content", "language", "location","isRegistrationOpen","registrationEndDate", "startDate","endDate","index","slug","initiativeAgeName"]
+        )
+        
+        # print(f"\n\n\n===================\n{results}\n\n\n===================\n")
+        return results.objects
+    except Exception as e:
+        print(f"Error during search: {e}")
+        return []
+       
 def print_search_results(results):
     """Print formatted search results"""
     if not results:
@@ -608,7 +642,7 @@ def get_cv_by_id(id):
 
 def best_courses(query):
     print(f"\n\n===== Searching for: '{query}' =====")
-    results = search_similar_bootcamps(query, limit=5)
+    results = search_similar_bootcamps(query, limit=6)
     print(results_json(results))
     return results_json(results)
 
@@ -711,10 +745,28 @@ def calculate_duration(start_date_str, end_date_str):
     except (ValueError, TypeError):
         return "تنسيق التاريخ غير صحيح"
     
+import random
+from datetime import datetime  # Ensure this is imported if not already
+
+# List of image URLs
+image_urls = [
+    "https://cdn.tuwaiq.edu.sa/initiatives_admin/images/pfx1rhso.dml.webp",
+    "https://cdn.tuwaiq.edu.sa/initiatives_admin/images/jfbxz4lr.rek.webp",
+    "https://cdn.tuwaiq.edu.sa/initiatives_admin/images/5izndcsu.hvs.webp",
+    "https://cdn.tuwaiq.edu.sa/initiatives_admin/images/ybag2hv2.tuc.webp",
+    "https://cdn.tuwaiq.edu.sa/initiatives_admin/images/0jf412u1.myl.webp",
+    "https://cdn.tuwaiq.edu.sa/initiatives_admin/images/rlknjzz4.y5e.webp",
+    "https://cdn.tuwaiq.edu.sa/initiatives_admin/images/2kcemtrl.t3i.webp",
+    "https://cdn.tuwaiq.edu.sa/initiatives_admin/images/4luucy2v.510.webp",
+    "https://cdn.tuwaiq.edu.sa/initiatives_admin/images/xeo0f3sd.wui.webp",
+    "https://cdn.tuwaiq.edu.sa/initiatives_admin/images/ib0dwcjx.anq.webp",
+    "https://cdn.tuwaiq.edu.sa/initiatives_admin/images/w002n5nl.ltb.webp",
+    "https://cdn.tuwaiq.edu.sa/initiatives_admin/images/2pwnnfhv.qzt.webp"
+]
 
 def render_course_card_ar(course):
     title = course.get("title", "—")
-    image_url = "data:image/png;base64,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"
+    image_url = random.choice(image_urls)
     audience = course.get("initiativeAgeName", "كبار")
     type_ = course.get("initiativeCategoryName", "-")
 
@@ -762,20 +814,69 @@ def render_course_card_ar(course):
 
 
 # --- Page Setup ---
-st.set_page_config(layout="wide", page_title="اقتراح مسارات")
+st.set_page_config(layout="wide", page_title="اقتراح مسارات", initial_sidebar_state="collapsed")
 
 st.markdown('<div style="height: 60px; "></div>', unsafe_allow_html=True) 
 
-# Top navigation bar
+import base64
+
+with open("images/masar.svg", "rb") as f:
+    masar_svg_base64 = base64.b64encode(f.read()).decode()
+
+# Header
 st.markdown("""
     <style>
-        .top-nav-wrapper {
+        .main-title {
+            font-size: 32px;
+            font-weight: bold;
+            text-align: right;
+            direction: rtl;
+            margin-bottom: 20px;
+        }
+        .course-box {
+            border: 1px solid #eee;
+            border-radius: 15px;
+            padding: 20px;
+            text-align: right;
+            direction: rtl;
+            background-color: #f9f9ff;
+            box-shadow: 0px 0px 10px rgba(0,0,0,0.05);
+        }
+        .course-title {
+            font-weight: bold;
+            font-size: 20px;
+            margin-bottom: 10px;
+            text-align: right;
+        }
+        .course-details {
+            font-size: 14px;
+            color: #666;
+            text-align: right;
+        }
+        .enroll-button {
+            background-color: #ec407a;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 10px;
+            text-align: center;
+            font-size: 16px;
+            margin-bottom: 20px;
+            display: inline-block;
+        }
+    </style>
+""", unsafe_allow_html=True)
+
+# Top navigation bar
+st.markdown(f"""
+    <style>
+        .top-nav-wrapper {{
             display: flex;
             background-color: #f8f9ff;
             border-bottom: 1px solid #eee;
             border-radius: 20px;
-        }
-        .top-nav {
+            justify-content: center;
+        }}
+        .top-nav {{
             padding: 15px 30px;
             display: flex;
             justify-content: space-between;
@@ -783,46 +884,48 @@ st.markdown("""
             direction: rtl;
             width: 100%;
             max-width: 1100px;
-        }
-        .top-nav .nav-left {
+        }}
+        .top-nav .nav-left {{
             display: flex;
-            gap: 60px;
+            gap: 50px;
             font-weight: 600;
-            font-size: 15px;
-        }
-        .top-nav .nav-left div {
+            font-size: 14px;
+        }}
+        .top-nav .nav-left div {{
             cursor: pointer;
-        }
-        .top-nav .nav-left .active {
-            background-color: #6c47ff;
+        }}
+        .top-nav .nav-left .active {{
+            background-color: #5034b4;
             color: white;
             padding: 6px 14px;
             border-radius: 10px;
-        }
-        .top-nav .nav-right {
+        }}
+        .top-nav .nav-right {{
             display: flex;
             align-items: center;
             gap: 15px;
-        }
-        .top-nav .lang-select {
+        }}
+        .top-nav .lang-select {{
             background-color: #eee;
             padding: 6px 12px;
             border-radius: 8px;
             font-weight: bold;
-        }
-        .top-nav .login-btn {
+        }}
+        .top-nav .login-btn {{
             background-color: #6c47ff;
             color: white;
             padding: 8px 20px;
             border-radius: 10px;
             font-weight: bold;
-        }
+        }}
     </style>
 
     <div class="top-nav-wrapper">
         <div class="top-nav">
             <div class="nav-left">
-                <img src="https://tuwaiq.edu.sa/img/logo.svg" width="130" alt="Logo">
+                <img src="data:image/svg+xml;base64,{masar_svg_base64}" width="80" alt="Masar Logo">
+                <img src="https://tuwaiq.edu.sa/img/logo.svg" width="130" alt="Tuwaiq Logo">
+                <div class="active">الرئيسية</div>
                 <div>حول الأكاديمية</div>
                 <div>الأكاديميات التابعة</div>
                 <div>مركز الاختبارات</div>
@@ -969,9 +1072,34 @@ st.markdown("""
 # --- Dropdown in RTL container ---
 # --- Dropdown aligned to right using columns ---
 
+def split_courses(cv):
+     # Sample courses
+    courses = best_courses(cv)
+    enhance=[]
+ 
+    major=""
+    for i,item in enumerate(courses):
+        if i==0:
+            major =item["initiativeScopeName_en"].strip().lower()
+        if i <= 5:
+            enhance.append(item)
+    # titles=[]
+    # for items in data:
+    #     if items["initiativeScopeName_en"].strip().lower() != major.strip().lower():
+    #         titles.append(items["title_en"])
+
+    # print(f"\n\n\n\n==========================================titles:\n{titles}\n\n\n=====\n\n")
+    other = results_json(search_similar_bootcamps_other(cv, major,limit=6 ))
+    
+    client.close()  # Properly close connection
+    # Close the connection
+    conn.close()
+    return enhance,other            
+
+
 col1, col2, col3 = st.columns([6, 3, 2])
 with col2:
-    st.markdown('<p style="font-size:20px; color:#2F195F; font-weight:bold; text-align:right;">رفع ملف PDF</p>', unsafe_allow_html=True)
+    st.markdown('<p style="font-size:20px; color:#2F195F; font-weight:bold; text-align:right;"> قم برفع سيرتك الذاتية</p>', unsafe_allow_html=True)
     uploaded_file = st.file_uploader("", type="pdf", label_visibility="collapsed")
     if uploaded_file is not None:
             with st.spinner('جاري معالجة الملف...'):
@@ -991,6 +1119,15 @@ with col2:
                     extracted_text = extract_text_from_resume(pdf_content)
                     cv= extracted_text
                     st.session_state.extracted_text = extracted_text
+                    if 'enhance' not in st.session_state or 'other' not in st.session_state:
+                        enhance, other = split_courses(cv)
+                        st.session_state.enhance = enhance
+                        st.session_state.other = other
+
+                    # Now you can access the cached values
+                    enhance = st.session_state.enhance
+                    other = st.session_state.other
+
                     
                 except Exception as e:
                     st.error(f'حدث خطأ أثناء معالجة الملف: {str(e)}')
@@ -1060,7 +1197,7 @@ if option != "اختر" and 'extracted_text' not in st.session_state:
         <div class="centered-warning">يرجى رفع السيرة الذاتية أولاً قبل اختيار نوع الاقتراح.</div>
     """, unsafe_allow_html=True)
 else:
-    if option and option != "اختر" and 'extracted_text' in st.session_state:
+    if option and option != "اختر" and 'extracted_text' in st.session_state and option == "طور مهاراتك في مجالك":
         cv = st.session_state.extracted_text
         courses = best_courses(cv)
 
@@ -1069,9 +1206,12 @@ else:
         col2_content = ""
         col3_content = ""
 
-        for i, course in enumerate(courses):
+            
+        # Add course cards to different columns in a loop
+        for i, course in enumerate(enhance):
             course_html = f"""<div class="course-card" style="margin-bottom: 20px;">{render_course_card_ar(course)}</div>"""
             
+            # Determine which column to use based on index
             if i % 3 == 0:
                 col1_content += course_html
             elif i % 3 == 1:
@@ -1079,14 +1219,49 @@ else:
             else:
                 col3_content += course_html
 
+        # Display the content in each column
         with col1:
             st.markdown(col1_content, unsafe_allow_html=True)
+            
         with col2:
             st.markdown(col2_content, unsafe_allow_html=True)
+            
         with col3:
             st.markdown(col3_content, unsafe_allow_html=True)
 
-        client.close()
-        conn.close()
+    if option and option != "اختر" and 'extracted_text' in st.session_state and option == "غير مسارك":
 
+            
+        # # Page title
+        # st.title("الدورات المتاحة")
+
+        # Create three columns
+        col1, col2, col3 = st.columns([1, 1, 1])
+
+        # Initialize empty content for each column
+        col1_content = ""
+        col2_content = ""
+        col3_content = ""
+
+        # Add course cards to different columns in a loop
+        for i, course in enumerate(other):
+            course_html = f"""<div class="course-card" style="margin-bottom: 20px;">{render_course_card_ar(course)}</div>"""
+            
+            # Determine which column to use based on index
+            if i % 3 == 0:
+                col1_content += course_html
+            elif i % 3 == 1:
+                col2_content += course_html
+            else:
+                col3_content += course_html
+
+        # Display the content in each column
+        with col1:
+            st.markdown(col1_content, unsafe_allow_html=True)
+            
+        with col2:
+            st.markdown(col2_content, unsafe_allow_html=True)
+            
+        with col3:
+            st.markdown(col3_content, unsafe_allow_html=True)
 
