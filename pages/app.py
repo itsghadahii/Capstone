@@ -613,69 +613,60 @@ def best_courses(query):
     return results_json(results)
 
 
-cv="""Name: Ameen Alrashid
-Email: ameen.alrashid@email.com
-Phone: +966-5XXXXXXX
-Location: Dammam, Saudi Arabia
-LinkedIn: linkedin.com/in/ameenalrashid
-GitHub: github.com/ameenalrashid
-
-Professional Summary:
-Cybersecurity analyst with a strong background in securing enterprise systems, performing risk assessments, and implementing defense strategies. Experienced in monitoring network activity, mitigating threats, and enhancing information security compliance. Passionate about protecting digital infrastructure and staying current with emerging security trends.
-
-Education:
-Bachelor of Science in Computer Science – Imam Abdulrahman Bin Faisal University
-Graduation: May 2024
-
-Certifications:
-- CompTIA Security+
-- Certified Ethical Hacker (CEH)
-- IBM Cybersecurity Analyst Professional Certificate
-
-Technical Skills:
-- Security Tools: Snort, Nmap, Nessus, Splunk
-- Languages: Python, PowerShell, JavaScript
-- Networking: TCP/IP, DNS, VPN, NAT, OSI Model
-- Platforms: Windows Server, Kali Linux, Ubuntu
-- Practices: Penetration Testing, SIEM, Incident Response, Threat Hunting
-
-Projects:
-Web App Penetration Testing Simulation
-- Identified and exploited OWASP Top 10 vulnerabilities in a test application
-- Documented flaws and provided remediation strategies
-- Demonstrated XSS, SQLi, and CSRF attacks in a live demo
-
-Security Information and Event Management (SIEM) Dashboard
-- Built custom SIEM dashboard using Splunk
-- Created real-time alerts for unusual login patterns and port scans
-- Reduced detection time for incidents by 40%
-
-Experience:
-Cybersecurity Intern – Aramco Cyber Defense Center
-Jul 2023 – Sep 2023
-- Conducted internal vulnerability scans and documented findings
-- Analyzed phishing attempts and contributed to monthly threat reports
-- Assisted in deploying endpoint detection and response (EDR) solutions
-
-Languages:
-- Arabic: Native
-- English: Professional Proficiency
-
-Interests:
-- Capture the Flag (CTF) challenges
-- Malware analysis
-- Threat intelligence platforms
-
-References:
-Available upon request"""
+# cv= extracted_text
 
 
 
 import streamlit as st
+import fitz  # PyMuPDF
+import pytesseract
+from PIL import Image
+import io
+import os
+import tempfile
+import hashlib
 from datetime import datetime
 
 from datetime import datetime
 from dateutil.parser import parse  # Handles timezones and complex formats
+
+@st.cache_data
+def extract_text_from_resume(pdf_content):
+    """
+    Extract text from a resume PDF using PyMuPDF and OCR if needed.
+    This function is cached to improve performance.
+    """
+    # Create a temporary file to work with
+    with tempfile.NamedTemporaryFile(delete=False, suffix='.pdf') as tmp_file:
+        tmp_file.write(pdf_content)
+        pdf_path = tmp_file.name
+
+    try:
+        doc = fitz.open(pdf_path)
+        text = ""
+
+        for page_num in range(len(doc)):
+            page = doc.load_page(page_num)
+
+            # Try to get text directly first
+            page_text = page.get_text()
+
+            # If little or no text was extracted, try OCR
+            if len(page_text.strip()) < 100:  # Arbitrary threshold
+                # Get the page as an image
+                pix = page.get_pixmap(matrix=fitz.Matrix(300/72, 300/72))  # 300 DPI
+                img = Image.open(io.BytesIO(pix.tobytes("png")))
+
+                # Use OCR to extract text from the image
+                page_text = pytesseract.image_to_string(img)
+
+            text += page_text + "\n\n"
+
+        doc.close()
+        return text
+    finally:
+        # Clean up the temporary file
+        os.unlink(pdf_path)
 
 def calculate_duration(start_date_str, end_date_str):
     # Default if dates are missing/invalid
@@ -767,13 +758,6 @@ def render_course_card_ar(course):
     </div>
     """
     return html
-
-
-
-
-import streamlit as st
-from PIL import Image
-
 
 
 
@@ -984,7 +968,36 @@ st.markdown("""
 # --- Dropdown in RTL container ---
 # --- Dropdown aligned to right using columns ---
 
-col1, col2, col3 = st.columns([6, 2, 2])
+col1, col2, col3 = st.columns([6, 3, 2])
+with col2:
+    st.markdown('<p style="font-size:20px; color:#2F195F; font-weight:bold; text-align:right;">رفع ملف PDF</p>', unsafe_allow_html=True)
+    uploaded_file = st.file_uploader("", type="pdf", label_visibility="collapsed")
+    if uploaded_file is not None:
+            with st.spinner('جاري معالجة الملف...'):
+                # Get the file content
+                pdf_content = uploaded_file.getvalue()
+
+                # Check if this file has been processed before (for UI feedback only)
+                file_hash = hashlib.md5(pdf_content).hexdigest()
+                if 'last_processed_hash' in st.session_state and st.session_state.last_processed_hash == file_hash:
+                    st.session_state.cache_hit = True
+                else:
+                    st.session_state.cache_hit = False
+                    st.session_state.last_processed_hash = file_hash
+
+                try:
+                    # Extract text from the PDF using the cached function
+                    extracted_text = extract_text_from_resume(pdf_content)
+                    cv= extracted_text
+                    st.session_state.extracted_text = extracted_text
+
+                    if st.session_state.cache_hit:
+                        st.success('تم استخراج النص من الذاكرة المؤقتة!')
+                    else:
+                        st.success('تم استخراج النص بنجاح!')
+                except Exception as e:
+                    st.error(f'حدث خطأ أثناء معالجة الملف: {str(e)}')
+
 with col3:
 
     st.markdown('<p style="font-size:20px; color:#2F195F; font-weight:bold; text-align:right;">اختر نوع الاقتراح</p>', unsafe_allow_html=True)
