@@ -90,7 +90,7 @@ def main():
     .tuwaiq-logo {
         position: top;
         top: 10px;
-        right: 20px;
+        right: px;
         width: 150px;
         animation: logoAnimation 2s ease-in-out;
     }

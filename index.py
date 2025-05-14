@@ -9,7 +9,7 @@ from sklearn.metrics.pairwise import cosine_similarity
 
 # Set page config
 st.set_page_config(
-    page_title="CV Course Matcher",
+    page_title="مسار",
     page_icon="📚",
     layout="wide"
 )
