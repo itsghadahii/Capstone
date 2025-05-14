@@ -39,7 +39,7 @@ Masar aims to empower individuals by mapping their competencies to relevant lear
 
 
 ```
-project-root/
+Capstone/
 │
 ├── Jsons/                  # Contains JSON files for data retrieval
 ├── images/                 # UI images and other static assets
