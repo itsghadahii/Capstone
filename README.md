@@ -20,11 +20,9 @@ Masar aims to empower individuals by mapping their competencies to relevant lear
 
 **Data Storage and Search:**  
 - **weaviate** as a vector database for semantic search and similarity matching.  
-- **sqlite3** for local database storage of resumes and user data.
 
 **Data Handling:**  
 - **json**, **csv**, and **collections.OrderedDict** for structured data management.  
-- **requests** and **aiohttp** for web scraping and HTTP requests.
 
 - **OCR CVs**:
 **Tesseract** OCR (via pytesseract) is used to extract text from scanned PDF pages and images.
@@ -38,23 +36,19 @@ Masar aims to empower individuals by mapping their competencies to relevant lear
 
 ## Project Structure
 
+
+
 ```
-masar/
+project-root/
 │
-├── backend/                # Backend logic, APIs, and machine learning models
-│   ├── app.py              # Main backend application entry point
-│   └── models/             # Pre-trained models and related code
-│
-├── frontend/               # Frontend application (Streamlit or web UI)
-│   ├── public/             # Static assets (images, icons, etc.)
-│   ├── src/                # Source code for frontend logic and UI
-│   └── components/         # Reusable UI components
-│
-├── data/                   # Datasets and program information
-│   └── tuwaiq_programs.json # Tuwaiq Academy programs data
+├── Jsons/                  # Contains JSON files for data retrieval
+├── images/                 # UI images and other static assets
+├── pages/                  # Source code for different app pages
 │
 ├── README.md               # Project documentation
-└── requirements.txt        # Python dependencies
+├── home.py                 # Main application entry point
+├── requirements.txt        # Python dependencies
+└── webscraping_tuwaiq.py   # Script for scraping Tuwaiq Academy data
 ```
 ## Installation
 
@@ -66,13 +60,10 @@ git clone https://github.com/AI-bootcamp/capstone-project-batch3-masar
 cd masar
 
 # Install dependencies
-npm install 
+pip install -r requirements.txt  
 
-# Configure environment variables
-cp .env
-
-# Start the development server
-npm run dev 
+# Start the app
+streamlit run home.py
 ```
 
 ## Configuration
