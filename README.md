@@ -38,6 +38,7 @@ Masar aims to empower individuals by mapping their competencies to relevant lear
 
 ## Project Structure
 
+```
 masar/
 │
 ├── backend/                # Backend logic, APIs, and machine learning models
@@ -54,6 +55,7 @@ masar/
 │
 ├── README.md               # Project documentation
 └── requirements.txt        # Python dependencies
+```
 ## Installation
 
 ```bash
