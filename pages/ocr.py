@@ -7,9 +7,6 @@ import os
 import tempfile
 import hashlib
 
-# Configure pytesseract path if needed
-# pytesseract.pytesseract.tesseract_cmd = r'C:\Program Files\Tesseract-OCR\tesseract.exe'
-
 @st.cache_data
 def extract_text_from_resume(pdf_content):
     """

@@ -166,12 +166,6 @@ with col3:
 # spacer
 st.markdown('<div style="height: 60px; "></div>', unsafe_allow_html=True) 
 
-# # Button to switch to the app page
-# left, middle, right = st.columns(3)
-
-# if left.button("اقترح لي"):
-#     st.switch_page("pages/app.py")
-
 # Add custom CSS for the button
 st.markdown("""
     <style>

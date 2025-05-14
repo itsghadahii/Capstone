@@ -26,10 +26,7 @@ client = OpenAI(
 # Best practice: store your credentials in environment variables
 weaviate_url = os.environ["WEAVIATE_URL"]
 weaviate_api_key = os.environ["WEAVIATE_API_KEY"]
-# COLLECTION_NAME = "Bootcamp_en"
-# COLLECTION_NAME = "Bootcamp"
 COLLECTION_NAME = "COMBINE_BP"
-# COLLECTION_NAME = "COMBINE_BP2"
 
 # 1. Connect to the database (creates one if it doesn't exist)
 conn = sqlite3.connect('resume_database.db')
@@ -84,7 +81,6 @@ def format_json_item_en(item):
     
     Requirements: {'; '.join(item.get('requirements', []))}
     """
-    # Faqs: {'; '.join([f'{q} {a}' for q, a in item.get('faqs', {}).items()])}
     return text.strip()
 
 def save_weaviate():
@@ -202,20 +198,14 @@ def save_weaviate():
             "endDate": item["endDate"],
             "startTime": item["startTimeText"],
             "endTime": item["endTimeText"],
-
             "goals": item.get("goals", []),
             "features": item.get("features", []),
             "requirements": item.get("requirements", []),
             "faqs": json.dumps(item.get("faqs", {}), ensure_ascii=False),
-            
             "slug": item["slug"],
-
-            # "content": format_json_item(item)
-            # "content": format_json_item_en(item)
             "content": content
         }
         print(f"\n\n====prop\n\n{properties['index']} : {properties['title']}")
-        # print(f"\n====\nchunk\n\n{properties['content']}\n\n====\n")
         embedding = embedder.embed_query(properties["content"])
         
         bootcamp_collection.data.insert(
@@ -237,7 +227,6 @@ def format_json_item_combine(item):
     
     Requirements: {'; '.join(item.get('requirements_en', []))}
     """
-    # Faqs: {'; '.join([f'{q} {a}' for q, a in item.get('faqs', {}).items()])}
     return text.strip()
 
 def save_weaviate_combine():
@@ -429,7 +418,6 @@ def save_weaviate_combine():
             "content": content
         }
         print(f"\n\n====prop\n\n{properties['index']} : {properties['title']} : {properties['title_en']}")
-        # print(f"\n====\nchunk\n\n{properties['content']}\n\n====\n")
         embedding = embedder.embed_query(properties["content"])
         
         bootcamp_collection.data.insert(
@@ -496,7 +484,6 @@ def search_similar_bootcamps_other(query, field ,limit=5):
             return_properties=["title","title_en","initiativeCategoryName","initiativeCategoryName_en","initiativeScopeName","initiativeScopeName_en" ,"content", "language", "location","isRegistrationOpen","registrationEndDate", "startDate","endDate","index","slug","initiativeAgeName"]
         )
         
-        # print(f"\n\n\n===================\n{results}\n\n\n===================\n")
         return results.objects
     except Exception as e:
         print(f"Error during search: {e}")
@@ -528,7 +515,6 @@ def print_search_results(results):
         print(f"Language: {props.get('language', 'N/A')}")
         print(f"Location: {props.get('location', 'N/A')}")
         print(f"Start Date: {props.get('startDate', 'N/A')}")
-        # print(f"faqs: {props.get('faqs', 'N/A')}")
         
         # Get content safely and truncate it
         content = props.get('content', 'N/A')
@@ -551,7 +537,6 @@ def results_json(results):
         print("No results found")
         return
     
-    # print(f"\n=== Found {len(results)} similar bootcamps ===\n")
     all_jsons = []
     for i, result in enumerate(results, 1):
         props = result.properties
@@ -571,7 +556,6 @@ def results_json(results):
                 "startDate": serialize_date(props.get('startDate', 'N/A')),
                 "endDate": serialize_date(props.get('endDate', 'N/A')),
                 "initiativeAgeName": props.get('initiativeAgeName', 'N/A'),
-                # "index": props.get('index', 'N/A'),
                 "URL": url
             }
         all_jsons.append(json)
@@ -601,54 +585,11 @@ def get_cv_by_id(id):
     return None
 
 
-
-
-
-
-
-
-
-
-
-
-# save_weaviate()
-# save_weaviate_combine()
-
-
-
-
-# Example queries
-# example_queries = [
-#     """""",
-#     # "تطوير تطبيقات الويب",  # Web application development
-#     # "الذكاء الاصطناعي",     # Artificial intelligence
-#     # "تعلم الآلة",          # Machine learning
-#     # "تطوير تطبيقات الجوال", # Mobile app development
-#     # "سايبر سكيورتي"        # Cybersecurity
-# ]
-
-# # Run searches for each example query
-# for query in example_queries:
-#     print(f"\n\n===== Searching for: '{query}' =====")
-#     results = search_similar_bootcamps(query, limit=5)
-#     print_search_results(results)
-
-# input = input("id:")
-# input = 11
-# query= get_cv_by_id(input)
-# print(f"\n\n-------Query: {query}\n\n---------\n\n")
-# llmoutput = career_openai_call(query)
-# print(f"\n\n-------Query: {llmoutput}\n\n---------\n\n")
-
 def best_courses(query):
     print(f"\n\n===== Searching for: '{query}' =====")
     results = search_similar_bootcamps(query, limit=6)
     print(results_json(results))
     return results_json(results)
-
-
-# cv= extracted_text
-
 
 
 import streamlit as st
@@ -994,7 +935,6 @@ categories = [
     ("هندسة الميكاترونيكس", "https://cdn.tuwaiq.edu.sa/initiatives_admin/images/psvxh1jc.vwh.png"),
     ("الأمن السيبراني", "https://cdn.tuwaiq.edu.sa/initiatives_admin/images/1x2x5g4e.hlo.png"),
     ("أنظمة الشبكات", "https://cdn.tuwaiq.edu.sa/initiatives_admin/images/h4zvr2tr.0pu.png"),
-    #("الكل", "")
 ]
 
 cols = st.columns(len(categories))
@@ -1083,12 +1023,7 @@ def split_courses(cv):
             major =item["initiativeScopeName_en"].strip().lower()
         if i <= 5:
             enhance.append(item)
-    # titles=[]
-    # for items in data:
-    #     if items["initiativeScopeName_en"].strip().lower() != major.strip().lower():
-    #         titles.append(items["title_en"])
 
-    # print(f"\n\n\n\n==========================================titles:\n{titles}\n\n\n=====\n\n")
     other = results_json(search_similar_bootcamps_other(cv, major,limit=6 ))
     
     client.close()  # Properly close connection
@@ -1230,10 +1165,6 @@ else:
             st.markdown(col3_content, unsafe_allow_html=True)
 
     if option and option != "اختر" and 'extracted_text' in st.session_state and option == "غير مسارك":
-
-            
-        # # Page title
-        # st.title("الدورات المتاحة")
 
         # Create three columns
         col1, col2, col3 = st.columns([1, 1, 1])
